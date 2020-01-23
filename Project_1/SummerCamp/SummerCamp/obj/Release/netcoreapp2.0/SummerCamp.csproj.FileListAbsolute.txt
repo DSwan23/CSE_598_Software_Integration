@@ -1,0 +1,11 @@
+C:\Users\ychen10\Dropbox (ASU)\Current in Dropbox\Teach All\CSE445-446 Programs\MVC-Core\SummerCamp\SummerCamp\bin\Release\netcoreapp2.0\SummerCamp.deps.json
+C:\Users\ychen10\Dropbox (ASU)\Current in Dropbox\Teach All\CSE445-446 Programs\MVC-Core\SummerCamp\SummerCamp\bin\Release\netcoreapp2.0\SummerCamp.runtimeconfig.json
+C:\Users\ychen10\Dropbox (ASU)\Current in Dropbox\Teach All\CSE445-446 Programs\MVC-Core\SummerCamp\SummerCamp\bin\Release\netcoreapp2.0\SummerCamp.runtimeconfig.dev.json
+C:\Users\ychen10\Dropbox (ASU)\Current in Dropbox\Teach All\CSE445-446 Programs\MVC-Core\SummerCamp\SummerCamp\bin\Release\netcoreapp2.0\SummerCamp.dll
+C:\Users\ychen10\Dropbox (ASU)\Current in Dropbox\Teach All\CSE445-446 Programs\MVC-Core\SummerCamp\SummerCamp\bin\Release\netcoreapp2.0\SummerCamp.pdb
+C:\Users\ychen10\Dropbox (ASU)\Current in Dropbox\Teach All\CSE445-446 Programs\MVC-Core\SummerCamp\SummerCamp\obj\Release\netcoreapp2.0\SummerCamp.csprojResolveAssemblyReference.cache
+C:\Users\ychen10\Dropbox (ASU)\Current in Dropbox\Teach All\CSE445-446 Programs\MVC-Core\SummerCamp\SummerCamp\obj\Release\netcoreapp2.0\SummerCamp.csproj.CoreCompileInputs.cache
+C:\Users\ychen10\Dropbox (ASU)\Current in Dropbox\Teach All\CSE445-446 Programs\MVC-Core\SummerCamp\SummerCamp\obj\Release\netcoreapp2.0\SummerCamp.AssemblyInfoInputs.cache
+C:\Users\ychen10\Dropbox (ASU)\Current in Dropbox\Teach All\CSE445-446 Programs\MVC-Core\SummerCamp\SummerCamp\obj\Release\netcoreapp2.0\SummerCamp.AssemblyInfo.cs
+C:\Users\ychen10\Dropbox (ASU)\Current in Dropbox\Teach All\CSE445-446 Programs\MVC-Core\SummerCamp\SummerCamp\obj\Release\netcoreapp2.0\SummerCamp.dll
+C:\Users\ychen10\Dropbox (ASU)\Current in Dropbox\Teach All\CSE445-446 Programs\MVC-Core\SummerCamp\SummerCamp\obj\Release\netcoreapp2.0\SummerCamp.pdb

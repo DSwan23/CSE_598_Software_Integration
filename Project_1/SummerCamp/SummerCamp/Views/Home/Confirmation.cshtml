@@ -1,0 +1,27 @@
+﻿@model SummerCamp.Models.StudentSignup
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Confirmation</title>
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
+</head>
+<body class="text-center">
+    <p>
+        <h1>Thank you, @Model.Name!</h1>
+        @if (Model.Signup == true)
+        {
+            @:Thank you for signing up to the summer robotics camp
+        }
+        else
+        {
+            @:Sorry, the camp is open to high school students only.
+        }
+    </p>
+    Click <a class="nav-link" asp-action="RegistrationList">here</a>
+    to see who have signed up.
+</body>
+</html>

@@ -1,0 +1,44 @@
+﻿@model SummerCamp.Models.StudentSignup
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>SignupForm</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
+</head>
+<body>
+    <div class="panel panel-success">
+        <div class="panel-heading text-center"><h4>RSVP</h4></div>
+        <div class="panel-body">
+            <form class="p-a-1" asp-action="SignupForm" method="post">
+                <div asp-validation-summary="All"></div>
+                <div class="form-group">
+                    <label asp-for="Name">Your name:</label>
+                    <input class="form-control" asp-for="Name" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="Email">Your email:</label>
+                    <input class="form-control" asp-for="Email" />
+                </div>
+                <div class="form-group">
+                    <label>Are you a high school student currently?</label>
+                    <select class="form-control" asp-for="Signup">
+                        <option value="">Option</option>
+                        <option value="true">Yes, I am a high school student</option>
+                        <option value="false">No, I am not a high school student</option>
+                    </select>
+                </div>
+                <div class="text-center">
+                    <button class="btn btn-primary" type="submit">
+                        Submit the Form Now
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

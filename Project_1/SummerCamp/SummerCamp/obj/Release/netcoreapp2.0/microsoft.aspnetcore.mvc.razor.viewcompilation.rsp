@@ -1,0 +1,15 @@
+C:\Users\ychen10\Dropbox (ASU)\Current in Dropbox\Teach All\CSE445-446 Programs\MVC-Core\SummerCamp\SummerCamp
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=SummerCamp
+--content-root=C:\Users\ychen10\Dropbox (ASU)\Current in Dropbox\Teach All\CSE445-446 Programs\MVC-Core\SummerCamp\SummerCamp
+--file=C:\Users\ychen10\Dropbox (ASU)\Current in Dropbox\Teach All\CSE445-446 Programs\MVC-Core\SummerCamp\SummerCamp\Views\Home\About.cshtml
+--file=C:\Users\ychen10\Dropbox (ASU)\Current in Dropbox\Teach All\CSE445-446 Programs\MVC-Core\SummerCamp\SummerCamp\Views\Home\Confirmation.cshtml
+--file=C:\Users\ychen10\Dropbox (ASU)\Current in Dropbox\Teach All\CSE445-446 Programs\MVC-Core\SummerCamp\SummerCamp\Views\Home\Contact.cshtml
+--file=C:\Users\ychen10\Dropbox (ASU)\Current in Dropbox\Teach All\CSE445-446 Programs\MVC-Core\SummerCamp\SummerCamp\Views\Home\Index.cshtml
+--file=C:\Users\ychen10\Dropbox (ASU)\Current in Dropbox\Teach All\CSE445-446 Programs\MVC-Core\SummerCamp\SummerCamp\Views\Home\RegistrationList.cshtml
+--file=C:\Users\ychen10\Dropbox (ASU)\Current in Dropbox\Teach All\CSE445-446 Programs\MVC-Core\SummerCamp\SummerCamp\Views\Home\SignupForm.cshtml
+--file=C:\Users\ychen10\Dropbox (ASU)\Current in Dropbox\Teach All\CSE445-446 Programs\MVC-Core\SummerCamp\SummerCamp\Views\Shared\Error.cshtml
+--file=C:\Users\ychen10\Dropbox (ASU)\Current in Dropbox\Teach All\CSE445-446 Programs\MVC-Core\SummerCamp\SummerCamp\Views\Shared\_Layout.cshtml
+--file=C:\Users\ychen10\Dropbox (ASU)\Current in Dropbox\Teach All\CSE445-446 Programs\MVC-Core\SummerCamp\SummerCamp\Views\Shared\_ValidationScriptsPartial.cshtml
+--file=C:\Users\ychen10\Dropbox (ASU)\Current in Dropbox\Teach All\CSE445-446 Programs\MVC-Core\SummerCamp\SummerCamp\Views\_ViewImports.cshtml
+--file=C:\Users\ychen10\Dropbox (ASU)\Current in Dropbox\Teach All\CSE445-446 Programs\MVC-Core\SummerCamp\SummerCamp\Views\_ViewStart.cshtml
