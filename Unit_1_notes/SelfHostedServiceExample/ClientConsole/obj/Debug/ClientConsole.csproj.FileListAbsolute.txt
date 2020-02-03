@@ -1,0 +1,6 @@
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Unit_1_notes\SelfHostedServiceExample\ClientConsole\obj\Debug\ClientConsole.csprojAssemblyReference.cache
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Unit_1_notes\SelfHostedServiceExample\ClientConsole\bin\Debug\ClientConsole.exe.config
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Unit_1_notes\SelfHostedServiceExample\ClientConsole\bin\Debug\ClientConsole.exe
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Unit_1_notes\SelfHostedServiceExample\ClientConsole\bin\Debug\ClientConsole.pdb
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Unit_1_notes\SelfHostedServiceExample\ClientConsole\obj\Debug\ClientConsole.exe
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Unit_1_notes\SelfHostedServiceExample\ClientConsole\obj\Debug\ClientConsole.pdb

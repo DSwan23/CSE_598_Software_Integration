@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "NumberGuessingService", "NumberGuessingService\", "{FCE43617-431A-4A6E-9B03-E4AB28FD6800}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_53770"
+		Debug.AspNetCompiler.PhysicalPath = "NumberGuessingService\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53770\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_53770"
+		Release.AspNetCompiler.PhysicalPath = "NumberGuessingService\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53770\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "53770"
+		SlnRelativePath = "NumberGuessingService\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberGuessingForm", "NumberGuessingForm\NumberGuessingForm.csproj", "{F7875A0B-CEB8-466D-97F6-11DD7968B97E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FCE43617-431A-4A6E-9B03-E4AB28FD6800} = {FCE43617-431A-4A6E-9B03-E4AB28FD6800}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCE43617-431A-4A6E-9B03-E4AB28FD6800}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCE43617-431A-4A6E-9B03-E4AB28FD6800}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCE43617-431A-4A6E-9B03-E4AB28FD6800}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCE43617-431A-4A6E-9B03-E4AB28FD6800}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{F7875A0B-CEB8-466D-97F6-11DD7968B97E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7875A0B-CEB8-466D-97F6-11DD7968B97E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7875A0B-CEB8-466D-97F6-11DD7968B97E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7875A0B-CEB8-466D-97F6-11DD7968B97E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77635389-FD1A-497D-B2E6-086D4737FEE2}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Unit_1_notes\SelfHostedServiceExample\MyService\bin\Debug\MyService.exe.config
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Unit_1_notes\SelfHostedServiceExample\MyService\bin\Debug\MyService.exe
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Unit_1_notes\SelfHostedServiceExample\MyService\bin\Debug\MyService.pdb
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Unit_1_notes\SelfHostedServiceExample\MyService\obj\Debug\MyService.csprojAssemblyReference.cache
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Unit_1_notes\SelfHostedServiceExample\MyService\obj\Debug\MyService.exe
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Unit_1_notes\SelfHostedServiceExample\MyService\obj\Debug\MyService.pdb
