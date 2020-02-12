@@ -9,3 +9,17 @@ C:\Users\ychen10\Dropbox (ASU)\Current in Dropbox\Teach All\CSE445-446 Programs\
 C:\Users\ychen10\Dropbox (ASU)\Current in Dropbox\Teach All\CSE445-446 Programs\MVC-Core\SummerCamp\SummerCamp\obj\Debug\netcoreapp2.0\SummerCamp.AssemblyInfo.cs
 C:\Users\ychen10\Dropbox (ASU)\Current in Dropbox\Teach All\CSE445-446 Programs\MVC-Core\SummerCamp\SummerCamp\obj\Debug\netcoreapp2.0\SummerCamp.dll
 C:\Users\ychen10\Dropbox (ASU)\Current in Dropbox\Teach All\CSE445-446 Programs\MVC-Core\SummerCamp\SummerCamp\obj\Debug\netcoreapp2.0\SummerCamp.pdb
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Project_1\SummerCamp\SummerCamp\bin\Debug\netcoreapp2.0\appsettings.Development.json
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Project_1\SummerCamp\SummerCamp\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Project_1\SummerCamp\SummerCamp\bin\Debug\netcoreapp2.0\bundleconfig.json
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Project_1\SummerCamp\SummerCamp\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Project_1\SummerCamp\SummerCamp\bin\Debug\netcoreapp2.0\SummerCamp.deps.json
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Project_1\SummerCamp\SummerCamp\bin\Debug\netcoreapp2.0\SummerCamp.runtimeconfig.json
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Project_1\SummerCamp\SummerCamp\bin\Debug\netcoreapp2.0\SummerCamp.runtimeconfig.dev.json
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Project_1\SummerCamp\SummerCamp\bin\Debug\netcoreapp2.0\SummerCamp.dll
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Project_1\SummerCamp\SummerCamp\bin\Debug\netcoreapp2.0\SummerCamp.pdb
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Project_1\SummerCamp\SummerCamp\obj\Debug\netcoreapp2.0\SummerCamp.csprojAssemblyReference.cache
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Project_1\SummerCamp\SummerCamp\obj\Debug\netcoreapp2.0\SummerCamp.AssemblyInfoInputs.cache
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Project_1\SummerCamp\SummerCamp\obj\Debug\netcoreapp2.0\SummerCamp.AssemblyInfo.cs
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Project_1\SummerCamp\SummerCamp\obj\Debug\netcoreapp2.0\SummerCamp.dll
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Project_1\SummerCamp\SummerCamp\obj\Debug\netcoreapp2.0\SummerCamp.pdb

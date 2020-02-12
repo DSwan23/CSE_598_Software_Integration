@@ -1,0 +1,16 @@
+﻿@model GuessingGameFrontEnd.Models.SecretNumberModel
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = null;
+}
+
+    <div>
+        <h1 class="display-4">Welcome To the Number Guessing Game!</h1>
+        <a class="btn btn-primary" asp-action="GenSecretNumberForm">Generate a Secret Number</a>
+        <a class="btn btn-primary" asp-action="GuessSecretNumberForm">Guess the Secret Number</a>
+        <a class="btn btn-primary" asp-action="CheckRequest">Check for Request Response</a>
+        @if (Model != null)
+        {
+            <p>@Model.CodeResponse</p>
+        }
+    </div>

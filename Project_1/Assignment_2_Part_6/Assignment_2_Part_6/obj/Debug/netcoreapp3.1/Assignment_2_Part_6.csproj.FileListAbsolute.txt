@@ -1,0 +1,17 @@
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Project_1\Assignment_2_Part_6\Assignment_2_Part_6\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Project_1\Assignment_2_Part_6\Assignment_2_Part_6\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Project_1\Assignment_2_Part_6\Assignment_2_Part_6\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Project_1\Assignment_2_Part_6\Assignment_2_Part_6\bin\Debug\netcoreapp3.1\Assignment_2_Part_6.exe
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Project_1\Assignment_2_Part_6\Assignment_2_Part_6\bin\Debug\netcoreapp3.1\Assignment_2_Part_6.deps.json
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Project_1\Assignment_2_Part_6\Assignment_2_Part_6\bin\Debug\netcoreapp3.1\Assignment_2_Part_6.runtimeconfig.json
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Project_1\Assignment_2_Part_6\Assignment_2_Part_6\bin\Debug\netcoreapp3.1\Assignment_2_Part_6.runtimeconfig.dev.json
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Project_1\Assignment_2_Part_6\Assignment_2_Part_6\bin\Debug\netcoreapp3.1\Assignment_2_Part_6.dll
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Project_1\Assignment_2_Part_6\Assignment_2_Part_6\bin\Debug\netcoreapp3.1\Assignment_2_Part_6.pdb
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Project_1\Assignment_2_Part_6\Assignment_2_Part_6\obj\Debug\netcoreapp3.1\staticwebassets\Assignment_2_Part_6.StaticWebAssets.Manifest.cache
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Project_1\Assignment_2_Part_6\Assignment_2_Part_6\obj\Debug\netcoreapp3.1\staticwebassets\Assignment_2_Part_6.StaticWebAssets.xml
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Project_1\Assignment_2_Part_6\Assignment_2_Part_6\obj\Debug\netcoreapp3.1\Assignment_2_Part_6.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Project_1\Assignment_2_Part_6\Assignment_2_Part_6\obj\Debug\netcoreapp3.1\Assignment_2_Part_6.AssemblyInfoInputs.cache
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Project_1\Assignment_2_Part_6\Assignment_2_Part_6\obj\Debug\netcoreapp3.1\Assignment_2_Part_6.AssemblyInfo.cs
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Project_1\Assignment_2_Part_6\Assignment_2_Part_6\obj\Debug\netcoreapp3.1\Assignment_2_Part_6.RazorTargetAssemblyInfo.cache
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Project_1\Assignment_2_Part_6\Assignment_2_Part_6\obj\Debug\netcoreapp3.1\Assignment_2_Part_6.dll
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Project_1\Assignment_2_Part_6\Assignment_2_Part_6\obj\Debug\netcoreapp3.1\Assignment_2_Part_6.pdb
