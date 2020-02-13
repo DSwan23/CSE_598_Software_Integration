@@ -1,0 +1,199 @@
+﻿<Activity mc:Ignorable="sap sap2010 sads" x:Class="WorkflowApplicationBookExample.Workflow1" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap2010:WorkflowViewState.IdRef="WorkflowApplicationBookExample.Workflow1_1"
+ xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities"
+ xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+ xmlns:local="clr-namespace:WorkflowApplicationBookExample"
+ xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+ xmlns:mca="clr-namespace:Microsoft.CSharp.Activities;assembly=System.Activities"
+ xmlns:sads="http://schemas.microsoft.com/netfx/2010/xaml/activities/debugger"
+ xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation"
+ xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation"
+ xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib"
+ xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib"
+ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Text</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>WorkflowApplicationBookExample</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="nameFromCodeActivity" />
+    </Sequence.Variables>
+    <local:CodeActivityGetName sap2010:WorkflowViewState.IdRef="CodeActivityGetName_1" defaultName="John/Jane Doe">
+      <local:CodeActivityGetName.enteredName>
+        <OutArgument x:TypeArguments="x:String">
+          <mca:CSharpReference x:TypeArguments="x:String">nameFromCodeActivity</mca:CSharpReference>
+        </OutArgument>
+      </local:CodeActivityGetName.enteredName>
+    </local:CodeActivityGetName>
+    <WriteLine sap2010:WorkflowViewState.IdRef="WriteLine_1">
+      <InArgument x:TypeArguments="x:String">
+        <mca:CSharpValue x:TypeArguments="x:String">nameFromCodeActivity + "Today's date is " + DateTime.Now</mca:CSharpValue>
+      </InArgument>
+    </WriteLine>
+    <If sap2010:WorkflowViewState.IdRef="If_1">
+      <If.Condition>
+        <InArgument x:TypeArguments="x:Boolean">
+          <mca:CSharpValue x:TypeArguments="x:Boolean">DateTime.Now.Month &gt;= 1 &amp;&amp; DateTime.Now.Month &lt;= 5</mca:CSharpValue>
+        </InArgument>
+      </If.Condition>
+      <If.Then>
+        <Sequence sap2010:WorkflowViewState.IdRef="Sequence_1">
+          <WriteLine sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="In the Spring Semester." />
+          <Flowchart sap2010:WorkflowViewState.IdRef="Flowchart_1">
+            <Flowchart.StartNode>
+              <FlowStep x:Name="__ReferenceID0" sap2010:WorkflowViewState.IdRef="FlowStep_1">
+                <WriteLine sap2010:WorkflowViewState.IdRef="WriteLine_3">
+                  <InArgument x:TypeArguments="x:String">
+                    <mca:CSharpValue x:TypeArguments="x:String">"We are in Month " + DateTime.Now.Month</mca:CSharpValue>
+                  </InArgument>
+                </WriteLine>
+                <FlowStep.Next>
+                  <FlowStep x:Name="__ReferenceID1" sap2010:WorkflowViewState.IdRef="FlowStep_2">
+                    <Switch x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="Switch`1_1">
+                      <Switch.Expression>
+                        <InArgument x:TypeArguments="x:Int32">
+                          <mca:CSharpValue x:TypeArguments="x:Int32">DateTime.Now.Month</mca:CSharpValue>
+                        </InArgument>
+                      </Switch.Expression>
+                      <WriteLine x:Key="1" sap2010:WorkflowViewState.IdRef="WriteLine_6" Text="Happy new year, remember to attend your classes!" />
+                      <WriteLine x:Key="2" sap2010:WorkflowViewState.IdRef="WriteLine_7" Text="Time to start studying for midterms!" />
+                      <WriteLine x:Key="3" sap2010:WorkflowViewState.IdRef="WriteLine_8" Text="Prepare for midterms!" />
+                      <WriteLine x:Key="4" sap2010:WorkflowViewState.IdRef="WriteLine_9" Text="Time to start studying for time" />
+                      <WriteLine x:Key="5" sap2010:WorkflowViewState.IdRef="WriteLine_10" Text="Time for finals!" />
+                      <WriteLine x:Key="6" sap2010:WorkflowViewState.IdRef="WriteLine_11" Text="Summer classes have begun!" />
+                      <WriteLine x:Key="7" sap2010:WorkflowViewState.IdRef="WriteLine_12" Text="Time to take your finals!" />
+                      <WriteLine x:Key="8" sap2010:WorkflowViewState.IdRef="WriteLine_13" Text="Remmber to attend your first classes" />
+                      <WriteLine x:Key="9" sap2010:WorkflowViewState.IdRef="WriteLine_14" Text="Enjoy your studies and start studying for midterms!" />
+                      <WriteLine x:Key="10" sap2010:WorkflowViewState.IdRef="WriteLine_15" Text="Remember to study and take your midterms" />
+                      <WriteLine x:Key="11" sap2010:WorkflowViewState.IdRef="WriteLine_16" Text="Complete your projects and start studying for finals!" />
+                      <WriteLine x:Key="12" sap2010:WorkflowViewState.IdRef="WriteLine_17" Text="Finals are here!" />
+                    </Switch>
+                  </FlowStep>
+                </FlowStep.Next>
+              </FlowStep>
+            </Flowchart.StartNode>
+            <x:Reference>__ReferenceID0</x:Reference>
+            <x:Reference>__ReferenceID1</x:Reference>
+          </Flowchart>
+        </Sequence>
+      </If.Then>
+      <If.Else>
+        <If sap2010:WorkflowViewState.IdRef="If_2">
+          <If.Condition>
+            <InArgument x:TypeArguments="x:Boolean">
+              <mca:CSharpValue x:TypeArguments="x:Boolean">DateTime.Now.Month &gt;= 6 &amp;&amp; DateTime.Now.Month &lt;= 7</mca:CSharpValue>
+            </InArgument>
+          </If.Condition>
+          <If.Then>
+            <WriteLine sap2010:WorkflowViewState.IdRef="WriteLine_4" Text="In Summer Session" />
+          </If.Then>
+          <If.Else>
+            <WriteLine sap2010:WorkflowViewState.IdRef="WriteLine_5" Text="In Fall Semester" />
+          </If.Else>
+        </If>
+      </If.Else>
+    </If>
+    <sads:DebugSymbol.Symbol>d5gBQzpcVXNlcnNcbWFkbWFcRG9jdW1lbnRzXEdpdFJlcG9zXENTRV81OThfU29mdHdhcmVfSW50ZWdyYXRpb25cVW5pdF8yX25vdGVzXFdvcmtmbG93QXBwbGljYXRpb25Cb29rRXhhbXBsZVxXb3JrZmxvd0FwcGxpY2F0aW9uQm9va0V4YW1wbGVcV29ya2Zsb3cxLnhhbWwuJwN3DgIBASsFMSECATEyBTYRAgEuNwV1CgIBAi4LLmUCATMrZCtzAgEyNAk0fwIBLzoLOooBAgEDPglkFAIBDGcJcw4CAQU/Cz9lAgEsQAtjFwIBDWoPao4BAgEGbg1uYQIBCnENcWACAQg/ST9iAgEtQxFHHQIBKUoVXB4CAQ5uS25eAgELcUtxXQIBCUUVRXoCASpNG01qAgEPUBdQlAECASdRF1GIAQIBJVIXUnkCASNTF1ODAQIBIVQXVHUCAR9VF1V/AgEdVhdWfgIBG1cXV4kBAgEZWBdYmAECARdZF1mOAQIBFVoXWpsBAgETWxdbdgIBEVBfUJEBAgEoUV9RhQECASZSX1J2AgEkU19TgAECASJUYFRyAgEgVWBVfAIBHlZgVnsCARxXYFeGAQIBGlhgWJUBAgEYWWFZiwECARZaYVqYAQIBFFthW3MCARI=</sads:DebugSymbol.Symbol>
+  </Sequence>
+  <sap2010:WorkflowViewState.ViewStateManager>
+    <sap2010:ViewStateManager>
+      <sap2010:ViewStateData Id="CodeActivityGetName_1" sap:VirtualizedContainerService.HintSize="721.6,22.4" />
+      <sap2010:ViewStateData Id="WriteLine_1" sap:VirtualizedContainerService.HintSize="721.6,62.4" />
+      <sap2010:ViewStateData Id="WriteLine_2" sap:VirtualizedContainerService.HintSize="210.4,62.4" />
+      <sap2010:ViewStateData Id="WriteLine_3" sap:VirtualizedContainerService.HintSize="210.4,62.4">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="WriteLine_6" sap:VirtualizedContainerService.HintSize="210.4,62.4" />
+      <sap2010:ViewStateData Id="WriteLine_7" sap:VirtualizedContainerService.HintSize="210.4,62.4" />
+      <sap2010:ViewStateData Id="WriteLine_8" sap:VirtualizedContainerService.HintSize="210.4,62.4" />
+      <sap2010:ViewStateData Id="WriteLine_9" sap:VirtualizedContainerService.HintSize="210.4,62.4" />
+      <sap2010:ViewStateData Id="WriteLine_10" sap:VirtualizedContainerService.HintSize="210.4,62.4" />
+      <sap2010:ViewStateData Id="WriteLine_11" sap:VirtualizedContainerService.HintSize="210.4,62.4" />
+      <sap2010:ViewStateData Id="WriteLine_12" sap:VirtualizedContainerService.HintSize="210.4,62.4" />
+      <sap2010:ViewStateData Id="WriteLine_13" sap:VirtualizedContainerService.HintSize="210.4,62.4" />
+      <sap2010:ViewStateData Id="WriteLine_14" sap:VirtualizedContainerService.HintSize="210.4,62.4" />
+      <sap2010:ViewStateData Id="WriteLine_15" sap:VirtualizedContainerService.HintSize="210.4,62.4" />
+      <sap2010:ViewStateData Id="WriteLine_16" sap:VirtualizedContainerService.HintSize="210.4,62.4" />
+      <sap2010:ViewStateData Id="WriteLine_17" sap:VirtualizedContainerService.HintSize="210.4,62.4" />
+      <sap2010:ViewStateData Id="Switch`1_1" sap:VirtualizedContainerService.HintSize="200,52.8">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="FlowStep_2">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">200,240.1</av:Point>
+            <av:Size x:Key="ShapeSize">200,52.8</av:Size>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="FlowStep_1">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">194.8,127.7</av:Point>
+            <av:Size x:Key="ShapeSize">210.4,62.4</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">300,190.1 300,240.1</av:PointCollection>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Flowchart_1" sap:VirtualizedContainerService.HintSize="210.4,52.8">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <av:Point x:Key="ShapeLocation">270,2.5</av:Point>
+            <av:Size x:Key="ShapeSize">60,75.2</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">300,77.7 300,127.7</av:PointCollection>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Sequence_1" sap:VirtualizedContainerService.HintSize="232.8,280">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="WriteLine_4" sap:VirtualizedContainerService.HintSize="210.4,62.4" />
+      <sap2010:ViewStateData Id="WriteLine_5" sap:VirtualizedContainerService.HintSize="210.4,62.4" />
+      <sap2010:ViewStateData Id="If_2" sap:VirtualizedContainerService.HintSize="464,214.4" />
+      <sap2010:ViewStateData Id="If_1" sap:VirtualizedContainerService.HintSize="721.6,432" />
+      <sap2010:ViewStateData Id="Sequence_2" sap:VirtualizedContainerService.HintSize="744,721.6">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="WorkflowApplicationBookExample.Workflow1_1" sap:VirtualizedContainerService.HintSize="784,801.6" />
+    </sap2010:ViewStateManager>
+  </sap2010:WorkflowViewState.ViewStateManager>
+</Activity>
