@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8">
+<definitions
+    xlmns: plnk:"http://schemas.xmlsoap.org/ws/2003/05/partner-link/"
+    xlmns: pys:"http://localhost:5776/PythagoreanService.svc"
+    xlmns: encry:"http://neptune.fulton.ad.asu.edu/WSRepository/Services/EncryptionRest/Service.svc/">
+    <!-- BPEL Process port definitions -->
+    <portType name="ClientPT">
+        <operation name="ServiceTransaction">
+            <input message="serviceRequestMessage"/>
+            <output message="serviceResponseMessage"/>
+        </operation>
+    </portType>
+    <portType name="EncryptionCallbackPT">
+        <operation name="EncryptionTransaction">
+            <input message="encryptionResponseMessage"/>
+        </operation>
+    </portType>
+    <!-- Partner Link definitions -->
+    <plnk:partnerLinkType name="BpelProcessLT">
+        <plnk:role name="RequestProcessingService">
+            <plnk:portType name="ClientPT"/>
+        </plnk:role>
+    </plnk:partnerLinkType>
+    <plnk:partnerLinkType name="PythagoreanLT">
+        <plnk:role name="PythagoreanService">
+            <plnk:portType name="pys:pythagSOAP"/>
+        </plnk:role>
+    </plnk:partnerLinkType>
+    <plnk:partnerLinkType name="EncryptionLT">
+        <plnk:role name="EncryptionResponse">
+            <plnk:portType name="encryptionCallbackPT"/>
+        </plnk:role>
+        <plnk:role name="EncryptionService">
+            <plnk:portType name="encry:encryptionServicePT"/>
+        </plnk:role>
+    </plnk:partnerLinkType>
+</definitions>

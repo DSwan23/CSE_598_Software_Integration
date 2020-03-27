@@ -1,0 +1,2 @@
+AccessServiceConsoleApplication.PythagoreanTheorem.IService.CalcPythagorean.g.xaml
+XamlStaticHelperNamespace._XamlStaticHelper

@@ -1,0 +1,6 @@
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Project_2\Assignment_3\MyWorkflowService\bin\MyWorkflowService.dll.config
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Project_2\Assignment_3\MyWorkflowService\bin\MyWorkflowService.dll
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Project_2\Assignment_3\MyWorkflowService\bin\MyWorkflowService.pdb
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Project_2\Assignment_3\MyWorkflowService\obj\Debug\MyWorkflowService.dll
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Project_2\Assignment_3\MyWorkflowService\obj\Debug\MyWorkflowService.pdb
+C:\Users\madma\Documents\GitRepos\CSE_598_Software_Integration\Project_2\Assignment_3\MyWorkflowService\obj\Debug\MyWorkflowService.csprojAssemblyReference.cache

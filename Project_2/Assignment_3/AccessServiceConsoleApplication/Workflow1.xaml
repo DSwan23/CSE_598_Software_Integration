@@ -1,0 +1,290 @@
+﻿<Activity mc:Ignorable="sads sap sap2010" x:Class="AccessServiceConsoleApplication.Workflow1" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap2010:WorkflowViewState.IdRef="AccessServiceConsoleApplication.Workflow1_1"
+ xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities"
+ xmlns:aa="clr-namespace:AccessServiceConsoleApplication.AsuEncryptionService"
+ xmlns:ap="clr-namespace:AccessServiceConsoleApplication.PythagoreanService"
+ xmlns:local="clr-namespace:AccessServiceConsoleApplication"
+ xmlns:local1="clr-namespace:AccessServiceConsoleApplication.AsuEncryptionService.Activities"
+ xmlns:m="clr-namespace:MyWorkflowService;assembly=MyWorkflowService"
+ xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+ xmlns:mca="clr-namespace:Microsoft.CSharp.Activities;assembly=System.Activities"
+ xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities"
+ xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/servicemodel"
+ xmlns:sads="http://schemas.microsoft.com/netfx/2010/xaml/activities/debugger"
+ xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation"
+ xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation"
+ xmlns:sc="clr-namespace:System.ComponentModel;assembly=System"
+ xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib"
+ xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib"
+ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>AccessServiceConsoleApplication.PythagoreanService</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>MyWorkflowService</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>AccessServiceConsoleApplication</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:Double" Default="-1" Name="userServiceSelection" />
+    </Sequence.Variables>
+    <local:DisplayMenu sap2010:WorkflowViewState.IdRef="DisplayMenu_1">
+      <local:DisplayMenu.Text>
+        <InArgument x:TypeArguments="x:String">
+          <mca:CSharpValue x:TypeArguments="x:String" xml:space="preserve">"Welcome to the Service Access Console Application" +
+"\n================================================" +
+"\nThere are 2 services hooked up to this app one " +
+"\nthat calculates the side length of a triangle" +
+"\nusing pythagorean's theorem and the other" +
+"\nencrypts and decrypts strings" +
+"\nSelect an option to proceed: " +
+"\n\t1. Calculate Triangle Side Length. " +
+"\n\t2. String Encryption." +
+"\n\t3. Exit the application. \n" +
+"\nWhich service would you like to run? "</mca:CSharpValue>
+        </InArgument>
+      </local:DisplayMenu.Text>
+      <local:DisplayMenu.UserSelection>
+        <OutArgument x:TypeArguments="x:Double">
+          <mca:CSharpReference x:TypeArguments="x:Double">userServiceSelection</mca:CSharpReference>
+        </OutArgument>
+      </local:DisplayMenu.UserSelection>
+    </local:DisplayMenu>
+    <While sap2010:WorkflowViewState.IdRef="While_1">
+      <While.Condition>
+        <mca:CSharpValue x:TypeArguments="x:Boolean">userServiceSelection == 1 || userServiceSelection == 2</mca:CSharpValue>
+      </While.Condition>
+      <Sequence sap2010:WorkflowViewState.IdRef="Sequence_2">
+        <Sequence.Variables>
+          <Variable x:TypeArguments="x:Double" Default="-1" Name="side1" />
+          <Variable x:TypeArguments="x:Double" Default="-1" Name="side2" />
+          <Variable x:TypeArguments="x:String" Name="calculationType">
+            <Variable.Default>
+              <mca:CSharpValue x:TypeArguments="x:String">"Hypotonuse"</mca:CSharpValue>
+            </Variable.Default>
+          </Variable>
+        </Sequence.Variables>
+        <If sap2010:WorkflowViewState.IdRef="If_1">
+          <If.Condition>
+            <InArgument x:TypeArguments="x:Boolean">
+              <mca:CSharpValue x:TypeArguments="x:Boolean">userServiceSelection == 1</mca:CSharpValue>
+            </InArgument>
+          </If.Condition>
+          <If.Then>
+            <Sequence sap2010:WorkflowViewState.IdRef="Sequence_3">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="x:Double" Default="-1" Name="calcTypeUserSelection" />
+                <Variable x:TypeArguments="x:Double" Default="-1" Name="calculatedSideLength" />
+                <Variable x:TypeArguments="x:String" Name="calcPythagorean" />
+              </Sequence.Variables>
+              <local:DisplayMenu sap2010:WorkflowViewState.IdRef="DisplayMenu_3">
+                <local:DisplayMenu.Text>
+                  <InArgument x:TypeArguments="x:String">
+                    <mca:CSharpValue x:TypeArguments="x:String" xml:space="preserve">"\nWhat side length would you like to calculate?" +
+"\n\t 1. Hypotonuse." +
+"\n\t 2. Side A." +
+"\n\t 3. Side B." +
+"\n Your side selection: \n"</mca:CSharpValue>
+                  </InArgument>
+                </local:DisplayMenu.Text>
+                <local:DisplayMenu.UserSelection>
+                  <OutArgument x:TypeArguments="x:Double">
+                    <mca:CSharpReference x:TypeArguments="x:Double">calcTypeUserSelection</mca:CSharpReference>
+                  </OutArgument>
+                </local:DisplayMenu.UserSelection>
+              </local:DisplayMenu>
+              <If sap2010:WorkflowViewState.IdRef="If_2">
+                <If.Condition>
+                  <InArgument x:TypeArguments="x:Boolean">
+                    <mca:CSharpValue x:TypeArguments="x:Boolean">userServiceSelection == 0</mca:CSharpValue>
+                  </InArgument>
+                </If.Condition>
+                <If.Then>
+                  <local:DisplayMenu sap2010:WorkflowViewState.IdRef="DisplayMenu_4">
+                    <local:DisplayMenu.Text>
+                      <InArgument x:TypeArguments="x:String">
+                        <mca:CSharpValue x:TypeArguments="x:String">"/nFirst Side Length: \n"</mca:CSharpValue>
+                      </InArgument>
+                    </local:DisplayMenu.Text>
+                    <local:DisplayMenu.UserSelection>
+                      <OutArgument x:TypeArguments="x:Double">
+                        <mca:CSharpReference x:TypeArguments="x:Double">side1</mca:CSharpReference>
+                      </OutArgument>
+                    </local:DisplayMenu.UserSelection>
+                  </local:DisplayMenu>
+                </If.Then>
+                <If.Else>
+                  <local:DisplayMenu UserSelection="{x:Null}" sap2010:WorkflowViewState.IdRef="DisplayMenu_5">
+                    <local:DisplayMenu.Text>
+                      <InArgument x:TypeArguments="x:String">
+                        <mca:CSharpValue x:TypeArguments="x:String">"\nHypotonuse Length: \n"</mca:CSharpValue>
+                      </InArgument>
+                    </local:DisplayMenu.Text>
+                  </local:DisplayMenu>
+                </If.Else>
+              </If>
+              <local:DisplayMenu sap2010:WorkflowViewState.IdRef="DisplayMenu_6">
+                <local:DisplayMenu.Text>
+                  <InArgument x:TypeArguments="x:String">
+                    <mca:CSharpValue x:TypeArguments="x:String">"\nSecond Side Length: \n"</mca:CSharpValue>
+                  </InArgument>
+                </local:DisplayMenu.Text>
+                <local:DisplayMenu.UserSelection>
+                  <OutArgument x:TypeArguments="x:Double">
+                    <mca:CSharpReference x:TypeArguments="x:Double">side2</mca:CSharpReference>
+                  </OutArgument>
+                </local:DisplayMenu.UserSelection>
+              </local:DisplayMenu>
+            </Sequence>
+          </If.Then>
+          <If.Else>
+            <Sequence sap2010:WorkflowViewState.IdRef="Sequence_4">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="x:String" Name="valueToEncrypt" />
+                <Variable x:TypeArguments="x:String" Name="encryptedValue" />
+                <Variable x:TypeArguments="x:String" Name="decryptedValue" />
+              </Sequence.Variables>
+              <local:DisplayMenuStr sap2010:WorkflowViewState.IdRef="DisplayMenuStr_1">
+                <local:DisplayMenuStr.Text>
+                  <InArgument x:TypeArguments="x:String">
+                    <mca:CSharpValue x:TypeArguments="x:String">"\nWhat string would you like to encrypt: "</mca:CSharpValue>
+                  </InArgument>
+                </local:DisplayMenuStr.Text>
+                <local:DisplayMenuStr.UserString>
+                  <OutArgument x:TypeArguments="x:String">
+                    <mca:CSharpReference x:TypeArguments="x:String">valueToEncrypt</mca:CSharpReference>
+                  </OutArgument>
+                </local:DisplayMenuStr.UserString>
+              </local:DisplayMenuStr>
+              <local1:Encrypt sap2010:WorkflowViewState.IdRef="Encrypt_1" mva:VisualBasic.Settings="Assembly references and imported namespaces serialized as XML namespaces">
+                <local1:Encrypt.EncryptResult>
+                  <OutArgument x:TypeArguments="x:String">
+                    <mca:CSharpReference x:TypeArguments="x:String">encryptedValue</mca:CSharpReference>
+                  </OutArgument>
+                </local1:Encrypt.EncryptResult>
+                <local1:Encrypt.text>
+                  <InArgument x:TypeArguments="x:String">
+                    <mca:CSharpValue x:TypeArguments="x:String">valueToEncrypt</mca:CSharpValue>
+                  </InArgument>
+                </local1:Encrypt.text>
+              </local1:Encrypt>
+              <WriteLine sap2010:WorkflowViewState.IdRef="WriteLine_4">
+                <InArgument x:TypeArguments="x:String">
+                  <mca:CSharpValue x:TypeArguments="x:String">"\nYour encrypted string: " + encryptedValue</mca:CSharpValue>
+                </InArgument>
+              </WriteLine>
+              <local1:Decrypt sap2010:WorkflowViewState.IdRef="Decrypt_1" mva:VisualBasic.Settings="Assembly references and imported namespaces serialized as XML namespaces">
+                <local1:Decrypt.DecryptResult>
+                  <OutArgument x:TypeArguments="x:String">
+                    <mca:CSharpReference x:TypeArguments="x:String">decryptedValue</mca:CSharpReference>
+                  </OutArgument>
+                </local1:Decrypt.DecryptResult>
+                <local1:Decrypt.text>
+                  <InArgument x:TypeArguments="x:String">
+                    <mca:CSharpValue x:TypeArguments="x:String">encryptedValue</mca:CSharpValue>
+                  </InArgument>
+                </local1:Decrypt.text>
+              </local1:Decrypt>
+              <WriteLine sap2010:WorkflowViewState.IdRef="WriteLine_5">
+                <InArgument x:TypeArguments="x:String">
+                  <mca:CSharpValue x:TypeArguments="x:String">"\nYour decrypted string: " + decryptedValue</mca:CSharpValue>
+                </InArgument>
+              </WriteLine>
+            </Sequence>
+          </If.Else>
+        </If>
+        <local:DisplayMenu sap2010:WorkflowViewState.IdRef="DisplayMenu_2">
+          <local:DisplayMenu.Text>
+            <InArgument x:TypeArguments="x:String">
+              <mca:CSharpValue x:TypeArguments="x:String" xml:space="preserve">"\n================================================" +
+"\nSelect another process to run: " +
+"\n\t1. Calculate Triangle Side Length. " +
+"\n\t2. String Encryption." +
+"\n\t3. Exit the application. \n" +
+"\nWhich service would you like to run? "</mca:CSharpValue>
+            </InArgument>
+          </local:DisplayMenu.Text>
+          <local:DisplayMenu.UserSelection>
+            <OutArgument x:TypeArguments="x:Double">
+              <mca:CSharpReference x:TypeArguments="x:Double">userServiceSelection</mca:CSharpReference>
+            </OutArgument>
+          </local:DisplayMenu.UserSelection>
+        </local:DisplayMenu>
+      </Sequence>
+    </While>
+    <WriteLine sap2010:WorkflowViewState.IdRef="WriteLine_3">
+      <InArgument x:TypeArguments="x:String">
+        <mca:CSharpValue x:TypeArguments="x:String">"\nThanks for using this application, have a good day!\n"</mca:CSharpValue>
+      </InArgument>
+    </WriteLine>
+    <sads:DebugSymbol.Symbol>d4QBQzpcVXNlcnNcbWFkbWFcRG9jdW1lbnRzXEdpdFJlcG9zXENTRV81OThfU29mdHdhcmVfSW50ZWdyYXRpb25cUHJvamVjdF8yXEFzc2lnbm1lbnRfM1xBY2Nlc3NTZXJ2aWNlQ29uc29sZUFwcGxpY2F0aW9uXFdvcmtmbG93MS54YW1sMC8D8QEOAgEBMTQxOAIBAjMFSBkDAbABSQXqAQ0CAQbrAQXvARECAQM2C0A8AwGzAUULRWUDAbEBTQfpARICAQlLCUt+AgEH7QEJ7QGAAQIBBE84TzwCARBQOFA8AgEPUw9TWQIBClcJ1wEOAgEc2AEJ6AEdAgERWg9aZwIBHV4NngEYAgFooQEN1QEYAgEi2wEP4AE8AgEX5QEP5QFpAgESYD5gQgIBamE+YUICAWlkD3MjAwGfAXQPkQEUAgF8kgEPnQEjAgFrpwEPsgEmAgFXswEPvgEgAgFGvwEPwwEbAgE9xAEPzwEgAgEs0AEP1AEbAgEjZxVrLwMBqAFwFXBwAwGgAXcVd20CAX17E4YBJwMBjgGJAROPAScDAYUBlQEVlQFtAgF0mgEVmgFgAgFsrwEVrwFpAgFgqgEVqgF+AgFYuwEVuwFhAgFPtgEVtgFpAgFHwQETwQF9AgE+zAEVzAFhAgE1xwEVxwFpAgEt0gET0gF9AgEkfhl+cAMBlwGDARmDAWQDAY8BjAEZjAFwAwGGAQ==</sads:DebugSymbol.Symbol>
+  </Sequence>
+  <sap2010:WorkflowViewState.ViewStateManager>
+    <sap2010:ViewStateManager>
+      <sap2010:ViewStateData Id="DisplayMenu_1" sap:VirtualizedContainerService.HintSize="792,22.4" />
+      <sap2010:ViewStateData Id="DisplayMenu_3" sap:VirtualizedContainerService.HintSize="464,22.4" />
+      <sap2010:ViewStateData Id="DisplayMenu_4" sap:VirtualizedContainerService.HintSize="200,22.4" />
+      <sap2010:ViewStateData Id="DisplayMenu_5" sap:VirtualizedContainerService.HintSize="200,22.4" />
+      <sap2010:ViewStateData Id="If_2" sap:VirtualizedContainerService.HintSize="464,212" />
+      <sap2010:ViewStateData Id="DisplayMenu_6" sap:VirtualizedContainerService.HintSize="464,22.4" />
+      <sap2010:ViewStateData Id="Sequence_3" sap:VirtualizedContainerService.HintSize="486.4,461.6">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="DisplayMenuStr_1" sap:VirtualizedContainerService.HintSize="210.4,22.4" />
+      <sap2010:ViewStateData Id="Encrypt_1" sap:VirtualizedContainerService.HintSize="210.4,22.4" />
+      <sap2010:ViewStateData Id="WriteLine_4" sap:VirtualizedContainerService.HintSize="210.4,62.4" />
+      <sap2010:ViewStateData Id="Decrypt_1" sap:VirtualizedContainerService.HintSize="210.4,22.4" />
+      <sap2010:ViewStateData Id="WriteLine_5" sap:VirtualizedContainerService.HintSize="210.4,62.4" />
+      <sap2010:ViewStateData Id="Sequence_4" sap:VirtualizedContainerService.HintSize="232.8,476.8">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="If_1" sap:VirtualizedContainerService.HintSize="744,628.8" />
+      <sap2010:ViewStateData Id="DisplayMenu_2" sap:VirtualizedContainerService.HintSize="744,22.4" />
+      <sap2010:ViewStateData Id="Sequence_2" sap:VirtualizedContainerService.HintSize="766.4,816">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="While_1" sap:VirtualizedContainerService.HintSize="792,977.6" />
+      <sap2010:ViewStateData Id="WriteLine_3" sap:VirtualizedContainerService.HintSize="792,62.4" />
+      <sap2010:ViewStateData Id="Sequence_1" sap:VirtualizedContainerService.HintSize="814.4,1267.2">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="AccessServiceConsoleApplication.Workflow1_1" sap:VirtualizedContainerService.HintSize="854.4,1347.2" />
+    </sap2010:ViewStateManager>
+  </sap2010:WorkflowViewState.ViewStateManager>
+</Activity>

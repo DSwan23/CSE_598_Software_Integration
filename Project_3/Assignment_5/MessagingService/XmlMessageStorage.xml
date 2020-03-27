@@ -1,0 +1,14 @@
+<Messages>
+  <Message>
+    <SenderID>10</SenderID>
+    <ReceiverID>23</ReceiverID>
+    <Data>Hello there</Data>
+    <Time>3/25/2020 12:07:28 AM</Time>
+  </Message>
+  <Message>
+    <SenderID>10</SenderID>
+    <ReceiverID>23</ReceiverID>
+    <Data>Hello again</Data>
+    <Time>3/25/2020 12:07:43 AM</Time>
+  </Message>
+</Messages>

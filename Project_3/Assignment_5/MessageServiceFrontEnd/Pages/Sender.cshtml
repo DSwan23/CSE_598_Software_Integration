@@ -1,0 +1,24 @@
+﻿@page
+@model MessageServiceFrontEnd.SenderModel
+@{
+    ViewData["Title"] = "Sender";
+}
+
+<h1>Send A Message</h1>
+<form asp-page-handler="SendMessage" method="post">
+    <div>
+        To Whom (Receiver ID)
+        <input name="InputReceiverID" type="number" />
+    </div>
+    <div>
+        From Whom (Sender ID)
+        <input name="InputSenderID" type="number" />
+    </div>
+    Message
+    <div>
+        <textarea name="TextMessageData" rows="10" cols="20"></textarea>
+    </div>
+    <div>
+        <button class="btn">Send Message</button>
+    </div>
+</form>

@@ -1,0 +1,18 @@
+﻿@page
+@model MessageServiceFrontEnd.ReceiverModel
+@{
+    ViewData["Title"] = "Receiver";
+}
+
+<h1>Recieve Messages</h1>
+<form asp-page-handler="GetMessage" method="post">
+    Receiver ID:
+    <input name="InputReceiverID" type="number" />
+    Purge:
+    <input name="RadioPurge" type="radio" />
+    <button class="btn">Get Messages</button>
+    Messages Received:
+    <div>
+        <textarea name="TextReceivedMessages" rows="10" cols="20"></textarea>
+    </div>
+</form>

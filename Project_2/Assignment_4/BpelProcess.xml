@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8">
+<process name="PythagoreanService"
+    xmlns="http://schemas.xmlsoap.org/ws/2003/03/business-process/"
+    xmlns: def="http://schemas.xmlsoap.org/ws/2003/03/business-process/"
+    xlmns: pys:"http://localhost:5776/PythagoreanService.svc"
+    xlmns: encry:"http://neptune.fulton.ad.asu.edu/WSRepository/Services/EncryptionRest/Service.svc/">
+
+
+    <!-- Partner Link Definitions -->
+    <partnerLinks>
+        <!-- Link to the client which produces service requests -->
+        <partnerLink
+            name="Client"
+            partnerLinkType="BpelProcessLT"
+            myRole="RequestProcessingService"
+        />
+        <partnerLink
+            name="PythagoreanService"
+            partnerLinkType="PythagoreanLT"
+            myRole="PythagoreanService"
+        />
+        <partnerLink
+            name="EncryptionService"
+            partnerLinkType="EncryptionLT"
+            myRole="EncryptionService"
+            partnerRole="EncryptionResponse"
+        />
+    </partnerLinks>
+
+    <!-- Variable Definitions -->
+    <variables>
+        <!-- Request for this process to do something -->
+        <variable
+            name="ServiceRequest"
+            messageType="Client:ServiceRequestMessage"
+        />
+        <variable
+            name="ServiceResponse"
+            messageType="Client:ServiceResponseMessage"
+        />
+        <variable
+            name="ProcessType"
+            messageType="def:ProcessTypeMsg"
+        />
+        <variable
+            name="EncryptStringRequest"
+            messageType="def:EncryptMsgRequest"
+        />
+        <variable
+            name="EncryptStringResponse"
+            messageType="def:EncryptMsgResponse"
+        />
+        <variable
+            name="PythagoreanRequest"
+            messageType="def:PythagMsgRequest"
+        />
+        <variable
+            name="PythagoreanResponse"
+            messageType="def:PythagMsgResponse"
+        />
+    </variables>
+
+    <!-- Main Process -->
+    <sequence>
+        <!-- Receive the intial request -->
+        <receive
+            partnerLink="Client"
+            portType="ClientPT"
+            operation="RequestProcessingService"
+            variable="ServiceRequest"
+            createInstance="yes"
+        />
+        <!-- Assign the Type of process to occur to a local variable -->
+        <assign>
+            <copy>
+                <from variable="ServiceRequest" part="RequestType">
+                <to variable="ProcessType" part="RequestType">
+            </copy>
+        </assign>
+        <!-- Interpret which service the user wants to use-->
+        <switch>
+            <case condition="'ProcessType'='Pythagorean'">
+                <!-- Assign the variables to use the Pythagorean Theorem Service -->
+                <assign>
+                    <copy>
+                        <from variable="ServiceRequest" part="var1">
+                        <to variable="PythagoreanRequest" part="SideToProcess">
+                    </copy>
+                </assign>
+                <assign>
+                    <copy>
+                        <from variable="ServiceRequest" part="var2">
+                        <to variable="PythagoreanRequest" part="Side1">
+                    </copy>
+                </assign>
+                <assign>
+                    <copy>
+                        <from variable="ServiceRequest" part="var3">
+                        <to variable="PythagoreanRequest" part="Side2">
+                    </copy>
+                </assign>
+                <!-- Invoke the service, sync-->
+                <invoke
+                    partnerLink="PythagoreanLT"
+                    portType="pys:pythagSOAP"
+                    operation="CalcPythagoreanRequest"
+                    inputvariable="Pythagoreanrequest"
+                    outputvariable="ServiceResponse"
+                />
+            </case>
+            <otherwise>
+                <!-- Assign the variables to use the Encryption Service -->
+                <assign>
+                    <copy>
+                        <from variable="ServiceRequest" part="var1">
+                        <to variable="EncryptStringRequest" part="Type">
+                    </copy>
+                </assign>
+                <assign>
+                    <copy>
+                        <from variable="ServiceRequest" part="var2">
+                        <to variable="EncryptStringRequest" part="Input">
+                    </copy>
+                </assign>
+                <!-- Send the request to the encryption service -->
+                <invoke
+                    partnerLink="EncryptionService"
+                    portType="encryptionServicePT"
+                    operation=""
+                    inputvariable=""
+                    outputvariable=""
+                />
+                <!-- Await for the async response from the service -->
+                <receive
+                    partnerLink="EncryptionLT"
+                    portType="EncryptencryptionCallbackPT"
+                    operation="EncryptionResponse"
+                    variable="EncryptionStringResponse"
+                    createInstance="no"
+                />
+                <!-- Copy the data received into this services request message -->
+                <assign>
+                    <copy>
+                        <from variable="EncryptStringResponse" part="Result">
+                        <to variable="ServiceResponse" part="Result">
+                    </copy>
+                </assign>
+            </otherwise>
+        </switch>
+        <!-- Send the response back to the client -->
+        <reply
+            partnerLink="ClientResponse"
+            portType="BpelProcessLT"
+            operation="ReturnResponse"
+            variable="ServiceResponse"
+        />
+    </sequence>
+</process>
