@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Program xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="/ StateFileSchema.xsd" VIPLE_Type="1">
+  <Version>3.9.0.6</Version>
+  <ProgrammingPanel Name="Main">
+    <Variables />
+    <Activity IsFlipped="false">
+      <ActivityNameInt>2</ActivityNameInt>
+      <ActivityID>0</ActivityID>
+      <PreviousActivities />
+      <NextActivities>
+        <ActivityID>1</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines />
+      <OutgoingLines>
+        <GraphEdgeID>0</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>20</Left>
+        <Top>153.08</Top>
+      </Location>
+      <Values>
+        <Value>""</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>1</ActivityNameInt>
+      <ActivityID>1</ActivityID>
+      <PreviousActivities>
+        <ActivityID>0</ActivityID>
+      </PreviousActivities>
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>0</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>172</Left>
+        <Top>182.08</Top>
+      </Location>
+      <Values>
+        <Value>currentAsciiEntry</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>11</ActivityNameInt>
+      <ActivityID>2</ActivityID>
+      <PreviousActivities />
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines />
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>37</Left>
+        <Top>47.08</Top>
+      </Location>
+      <Values>
+        <Value>Setting up the intial state of the Acii Entry</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>13</ActivityNameInt>
+      <ActivityID>3</ActivityID>
+      <PreviousActivities />
+      <NextActivities>
+        <ActivityID>5</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines />
+      <OutgoingLines>
+        <GraphEdgeID>1</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>29</Left>
+        <Top>426.08</Top>
+      </Location>
+      <Values>
+        <Value Index="0">26</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>13</ActivityNameInt>
+      <ActivityID>4</ActivityID>
+      <PreviousActivities />
+      <NextActivities>
+        <ActivityID>6</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines />
+      <OutgoingLines>
+        <GraphEdgeID>2</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>30</Left>
+        <Top>528.08</Top>
+      </Location>
+      <Values>
+        <Value Index="0">27</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>3</ActivityNameInt>
+      <ActivityID>5</ActivityID>
+      <PreviousActivities>
+        <ActivityID>3</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>8</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>1</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>4</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>179</Left>
+        <Top>420.08</Top>
+      </Location>
+      <Values>
+        <Value>0</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>3</ActivityNameInt>
+      <ActivityID>6</ActivityID>
+      <PreviousActivities>
+        <ActivityID>4</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>8</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>2</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>3</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>182</Left>
+        <Top>531.08</Top>
+      </Location>
+      <Values>
+        <Value>1</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>11</ActivityNameInt>
+      <ActivityID>7</ActivityID>
+      <PreviousActivities />
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines />
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>0</Left>
+        <Top>317.08</Top>
+      </Location>
+      <Values>
+        <Value>Get the values entered into the keyboard by the user</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>5</ActivityNameInt>
+      <ActivityID>8</ActivityID>
+      <PreviousActivities>
+        <ActivityID>6</ActivityID>
+        <ActivityID>5</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>9</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>3</GraphEdgeID>
+        <GraphEdgeID>4</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>6</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>339</Left>
+        <Top>467.08</Top>
+      </Location>
+      <Values>
+        <Value>System.Int32</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>2</ActivityNameInt>
+      <ActivityID>9</ActivityID>
+      <PreviousActivities>
+        <ActivityID>8</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>11</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>6</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>5</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>417</Left>
+        <Top>273.08</Top>
+      </Location>
+      <Values>
+        <Value>state.currentAsciiEntry + value</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>11</ActivityNameInt>
+      <ActivityID>10</ActivityID>
+      <PreviousActivities />
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines />
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>416</Left>
+        <Top>163.08</Top>
+      </Location>
+      <Values>
+        <Value>Add the typed value to the current entry string</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>1</ActivityNameInt>
+      <ActivityID>11</ActivityID>
+      <PreviousActivities>
+        <ActivityID>9</ActivityID>
+      </PreviousActivities>
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>5</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>648</Left>
+        <Top>264.08</Top>
+      </Location>
+      <Values>
+        <Value>currentAsciiEntry</Value>
+      </Values>
+    </Activity>
+  </ProgrammingPanel>
+  <Variables>
+    <Variable>
+      <VariableName>currentAsciiEntry</VariableName>
+      <VariableType>System.String</VariableType>
+    </Variable>
+  </Variables>
+  <UsedCustomActivityNames />
+</Program>
