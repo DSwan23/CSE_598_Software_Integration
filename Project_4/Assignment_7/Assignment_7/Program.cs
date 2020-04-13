@@ -12,7 +12,7 @@ namespace Assignment_7
             Console.WriteLine("Welcome to Assignment 7 Linq");
 
             string courseCsvPath = @"D:\Git_Projects\CSE_598_Software_Integration\Project_4\Assignment_7\Courses.csv";
-            string instructorCsvPath = @"D:\Git_Projects\CSE_598_Software_Integration\Project_4\Assignment_7\Instructor.csv";
+            string instructorCsvPath = @"D:\Git_Projects\CSE_598_Software_Integration\Project_4\Assignment_7\Instructors.csv";
 
             DataController mController = new DataController(courseCsvPath, instructorCsvPath);
 
@@ -30,6 +30,16 @@ namespace Assignment_7
             Console.WriteLine("========== Subjects and Course Codes with Multiple Courses ==========");
             // View courses in a group manner
             mController.ViewGroupCourses();
+            Console.WriteLine("");
+            Console.WriteLine("========== Instructor Names ==========");
+            // Get a list of instructor names
+            mController.ViewAllInstructors();
+            Console.WriteLine("");
+            Console.WriteLine("========== 200 Level Course Instructor Emails ==========");
+            // Read in the instructor data
+            mController.ReadInInstructorData();
+            // Query the courses for instructor email and return all 200 level course data
+            mController.View200LvlCourseData();
         }
     }
 }

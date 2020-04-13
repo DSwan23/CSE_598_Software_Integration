@@ -204,16 +204,45 @@ namespace Assignment_7.Controller
                                 group course by course.CourseCode into codeGroup
                                 select codeGroup
                 };
-            foreach(var group in courseGroups)
+            foreach (var group in courseGroups)
             {
-                if(group.Count >= 2)
+                if (group.Count >= 2)
                 {
                     Console.WriteLine($"{group.Key}");
-                    foreach(var subGroup in group.SubGroup)
+                    foreach (var subGroup in group.SubGroup)
                     {
                         Console.WriteLine($"\t{subGroup.Key}");
                     }
                 }
+            }
+        }
+
+        public void View200LvlCourseData()
+        {
+            var courseData =
+                from course in mCourses
+                join instructor in mInstructors on course.Instructor equals instructor.InstructorName
+                select new { Subject = course.Subject, CourseCode = course.CourseCode, Email = instructor.EmailAddress };
+
+            foreach (var course in courseData)
+            {
+                if (course.CourseCode >= 200 && course.CourseCode < 300)
+                {
+                    Console.WriteLine($"{course.Subject} {course.CourseCode} -- {course.Email}");
+                }
+            }
+        }
+
+        public void ViewAllInstructors()
+        {
+            var instructorList =
+               from course in mCourses
+               group course by course.Instructor into uniqueInstructors
+               select uniqueInstructors;
+
+            foreach(var instruct in instructorList)
+            {
+                Console.WriteLine(instruct.Key);
             }
         }
     }
