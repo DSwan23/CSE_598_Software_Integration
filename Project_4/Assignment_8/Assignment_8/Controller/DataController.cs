@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Xml.Linq;
 
 namespace Assignment_8.Controller
 {
@@ -17,6 +18,8 @@ namespace Assignment_8.Controller
         private int mInstructorCount = 0;
         private string mCourseFilePath;
         private string mInstructorFilePath;
+        private string mXmlCoursePath;
+        private XElement mXmlCourseData;
         private List<Course> mTempCourseList = new List<Course>();
         private Course[] mCourses;
         private List<Instructor> mInstructors = new List<Instructor>();
@@ -77,10 +80,11 @@ namespace Assignment_8.Controller
         /// <param name="instructorFilePath">
         /// The file path to the instructor csv data file.
         /// </param>
-        public DataController(string courseFilePath, string instructorFilePath)
+        public DataController(string courseFilePath, string instructorFilePath, string xmlCoursePath)
         {
             mCourseFilePath = courseFilePath;
             mInstructorFilePath = instructorFilePath;
+            mXmlCoursePath = xmlCoursePath;
         }
 
         // Reading CSV Data Methods
@@ -112,6 +116,38 @@ namespace Assignment_8.Controller
             }
             // Convert the temp list into a course array
             mCourses = mTempCourseList.ToArray();
+        }
+
+        /// <summary>
+        /// Reads in the csv data and creates a xml document from it
+        /// </summary>
+        public void ConvertCourseDataToXml()
+        {
+            // Read in all of the csv data from the file
+            string [] csvData = File.ReadAllLines(mCourseFilePath);
+            // Convert into an xml object
+            XElement courses = new XElement("Root",
+                from line in csvData
+                let properties = line.Split(",")
+                select new XElement("Course",
+                    new XElement("Subject", properties[0]),
+                    new XElement("CourseCode", properties[1]),
+                    new XElement("CourseID", properties[2]),
+                    new XElement("Title", properties[3]),
+                    new XElement("Location", properties[9]),
+                    new XElement("Instructor", properties[10])
+                ));
+            // Store in the global xml
+            mXmlCourseData = courses;
+        }
+
+        /// <summary>
+        /// Writes out the csv course data to an xml file. Must have read in 
+        /// the csv data into the xml format first..
+        /// </summary>
+        public void WriteCourseDataToXmlFile()
+        {
+            File.WriteAllText(mXmlCoursePath, mXmlCourseData.ToString());
         }
 
         /// <summary>
