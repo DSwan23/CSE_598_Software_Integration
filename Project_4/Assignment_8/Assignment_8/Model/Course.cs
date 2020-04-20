@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Xml.Linq;
 
 namespace Assignment_8.Model
 {
@@ -19,7 +20,7 @@ namespace Assignment_8.Model
 
         // Constructor
         /// <summary>
-        /// Creates a course object.
+        /// Creates a course object from a string array.
         /// </summary>
         /// <param name="initValues">
         /// The values in which to initialize this object from. 
@@ -38,6 +39,30 @@ namespace Assignment_8.Model
             Title = initValues[3];
             Location = initValues[7];
             Instructor = initValues[10];
+        }
+
+        /// <summary>
+        /// Creates a course object from a xml data element.
+        /// </summary>
+        /// <param name="courseElement">
+        /// The element containing the course properties.
+        ///   <Course>
+        ///     </Subject>
+        ///     </CourseCode>
+        ///     </CourseID>
+        ///     </Title>
+        ///     </Location>
+        ///     </Instructor>
+        ///   </Course>
+        /// </param>
+        public Course(XElement courseElement)
+        {
+            Subject = (string)courseElement.Element("Subject");
+            CourseCode = (int) courseElement.Element("CourseCode");
+            CourseId = (int)courseElement.Element("CourseID");
+            Title = (string)courseElement.Element("Title");
+            Location = (string)courseElement.Element("Location");
+            Instructor = (string)courseElement.Element("Instructor");
         }
     }
 }

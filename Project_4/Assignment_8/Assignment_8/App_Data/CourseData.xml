@@ -1,0 +1,1850 @@
+<Root>
+  <Course>
+    <Subject>ASU</Subject>
+    <CourseCode>101</CourseCode>
+    <CourseID>13023</CourseID>
+    <Title>The ASU Experience</Title>
+    <Location>BYENG361</Location>
+    <Instructor>Staff</Instructor>
+  </Course>
+  <Course>
+    <Subject>ASU</Subject>
+    <CourseCode>101</CourseCode>
+    <CourseID>30641</CourseID>
+    <Title>The ASU Experience</Title>
+    <Location>BYENG361</Location>
+    <Instructor>Staff</Instructor>
+  </Course>
+  <Course>
+    <Subject>ASU</Subject>
+    <CourseCode>101</CourseCode>
+    <CourseID>31622</CourseID>
+    <Title>The ASU Experience</Title>
+    <Location>BYENG361</Location>
+    <Instructor>Staff</Instructor>
+  </Course>
+  <Course>
+    <Subject>ASU</Subject>
+    <CourseCode>101</CourseCode>
+    <CourseID>31623</CourseID>
+    <Title>Special Topics</Title>
+    <Location>BYENG361</Location>
+    <Instructor>Staff</Instructor>
+  </Course>
+  <Course>
+    <Subject>CPI</Subject>
+    <CourseCode>101</CourseCode>
+    <CourseID>12069</CourseID>
+    <Title>Introduction to Informatics</Title>
+    <Location>LSE104</Location>
+    <Instructor>hansford</Instructor>
+  </Course>
+  <Course>
+    <Subject>CPI</Subject>
+    <CourseCode>111</CourseCode>
+    <CourseID>19589</CourseID>
+    <Title>Game Development I</Title>
+    <Location>BYENGM1-11</Location>
+    <Instructor>Yoshi</Instructor>
+  </Course>
+  <Course>
+    <Subject>CPI</Subject>
+    <CourseCode>200</CourseCode>
+    <CourseID>16390</CourseID>
+    <Title>Math Foundation of Informatics</Title>
+    <Location>BYAC150</Location>
+    <Instructor>hansford</Instructor>
+  </Course>
+  <Course>
+    <Subject>CPI</Subject>
+    <CourseCode>211</CourseCode>
+    <CourseID>12302</CourseID>
+    <Title>Game Development II</Title>
+    <Location>BYENGM1-11</Location>
+    <Instructor>Selgrad</Instructor>
+  </Course>
+  <Course>
+    <Subject>CPI</Subject>
+    <CourseCode>221</CourseCode>
+    <CourseID>18204</CourseID>
+    <Title>Advan Obj Orient Prin w/Java</Title>
+    <Location>CPCOM213</Location>
+    <Instructor>Selgrad</Instructor>
+  </Course>
+  <Course>
+    <Subject>CPI</Subject>
+    <CourseCode>321</CourseCode>
+    <CourseID>12662</CourseID>
+    <Title>Fundamentals of Game Art</Title>
+    <Location>BYENGM1-11</Location>
+    <Instructor>yoshi</Instructor>
+  </Course>
+  <Course>
+    <Subject>CPI</Subject>
+    <CourseCode>350</CourseCode>
+    <CourseID>14056</CourseID>
+    <Title>Eval of Informatics Systems</Title>
+    <Location>DISCVRY350</Location>
+    <Instructor>atkinson</Instructor>
+  </Course>
+  <Course>
+    <Subject>CPI</Subject>
+    <CourseCode>411</CourseCode>
+    <CourseID>17633</CourseID>
+    <Title>Civic informatics</Title>
+    <Location>BYENGM1-11</Location>
+    <Instructor>yoshi</Instructor>
+  </Course>
+  <Course>
+    <Subject>CPI</Subject>
+    <CourseCode>441</CourseCode>
+    <CourseID>12597</CourseID>
+    <Title>Graphics for Games</Title>
+    <Location>BYENGM1-11</Location>
+    <Instructor>Yoshi</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>100</CourseCode>
+    <CourseID>11257</CourseID>
+    <Title>Gaming Capstone</Title>
+    <Location>COORL1-38</Location>
+    <Instructor>Staff</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>100</CourseCode>
+    <CourseID>22208</CourseID>
+    <Title>Informatics Capstone I</Title>
+    <Location>COORL1-50</Location>
+    <Instructor>Feng</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>100</CourseCode>
+    <CourseID>22209</CourseID>
+    <Title>Informatics Capstone I</Title>
+    <Location>COORL1-30</Location>
+    <Instructor>Feng</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>100</CourseCode>
+    <CourseID>11241</CourseID>
+    <Title>Informatics Capstone II</Title>
+    <Location>COORL1-38</Location>
+    <Instructor>Staff</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>100</CourseCode>
+    <CourseID>11320</CourseID>
+    <Title>Prin of Programming with C++</Title>
+    <Location>COORL1-38</Location>
+    <Instructor>Staff</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>100</CourseCode>
+    <CourseID>15635</CourseID>
+    <Title>Prin of Programming with C++</Title>
+    <Location>COORL1-38</Location>
+    <Instructor>Feng</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>100</CourseCode>
+    <CourseID>22207</CourseID>
+    <Title>Prin of Programming with C++</Title>
+    <Location>COORL1-50</Location>
+    <Instructor>Feng</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>100</CourseCode>
+    <CourseID>11226</CourseID>
+    <Title>Prin of Programming with C++</Title>
+    <Location>SCOB210</Location>
+    <Instructor>Possible Kevin</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>100</CourseCode>
+    <CourseID>13822</CourseID>
+    <Title>Prin of Programming with C++</Title>
+    <Location>CDN68</Location>
+    <Instructor>Feng</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>100</CourseCode>
+    <CourseID>16391</CourseID>
+    <Title>Prin of Programming with C++</Title>
+    <Location>COORL1-30</Location>
+    <Instructor>Feng</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>100</CourseCode>
+    <CourseID>17628</CourseID>
+    <Title>Prin of Programming with C++</Title>
+    <Location>COORL1-38</Location>
+    <Instructor>Feng</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>100</CourseCode>
+    <CourseID>16392</CourseID>
+    <Title>Prin of Programming with C++</Title>
+    <Location>COORL1-38</Location>
+    <Instructor>Feng</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>100</CourseCode>
+    <CourseID>22206</CourseID>
+    <Title>Prin of Programming with C++</Title>
+    <Location>COORL1-50</Location>
+    <Instructor>Staff</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>100</CourseCode>
+    <CourseID>11229</CourseID>
+    <Title>Prin of Programming with C++</Title>
+    <Location>COORL1-38</Location>
+    <Instructor>Staff</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>100</CourseCode>
+    <CourseID>11265</CourseID>
+    <Title>Prin of Programming with C++</Title>
+    <Location>COORL1-38</Location>
+    <Instructor>Staff</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>110</CourseCode>
+    <CourseID>29097</CourseID>
+    <Title>Prin of Programming with C++</Title>
+    <Location>COORL1-38</Location>
+    <Instructor>miller</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>110</CourseCode>
+    <CourseID>29096</CourseID>
+    <Title>Prin of Programming with C++</Title>
+    <Location>COORL1-38</Location>
+    <Instructor>miller</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>110</CourseCode>
+    <CourseID>11321</CourseID>
+    <Title>Prin of Programming with C++</Title>
+    <Location>COORL1-38</Location>
+    <Instructor>Staff</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>110</CourseCode>
+    <CourseID>29092</CourseID>
+    <Title>Prin of Programming with C++</Title>
+    <Location>COORL1-38</Location>
+    <Instructor>miller</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>110</CourseCode>
+    <CourseID>29109</CourseID>
+    <Title>Principles of Programming</Title>
+    <Location>BYENG209</Location>
+    <Instructor>Miller</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>110</CourseCode>
+    <CourseID>11335</CourseID>
+    <Title>Principles of Programming</Title>
+    <Location>COORL1-38</Location>
+    <Instructor>Staff</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>110</CourseCode>
+    <CourseID>29104</CourseID>
+    <Title>Principles of Programming</Title>
+    <Location>COORL1-50</Location>
+    <Instructor>faye</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>110</CourseCode>
+    <CourseID>29099</CourseID>
+    <Title>Principles of Programming</Title>
+    <Location>COOR170</Location>
+    <Instructor>faye</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>110</CourseCode>
+    <CourseID>29106</CourseID>
+    <Title>Principles of Programming</Title>
+    <Location>COORL1-50</Location>
+    <Instructor>faye</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>110</CourseCode>
+    <CourseID>16393</CourseID>
+    <Title>Principles of Programming</Title>
+    <Location>MUR101</Location>
+    <Instructor>miller</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>110</CourseCode>
+    <CourseID>15650</CourseID>
+    <Title>Principles of Programming</Title>
+    <Location>COORL1-38</Location>
+    <Instructor>Staff</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>110</CourseCode>
+    <CourseID>17635</CourseID>
+    <Title>Principles of Programming</Title>
+    <Location>COORL1-38</Location>
+    <Instructor>Staff</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>110</CourseCode>
+    <CourseID>29095</CourseID>
+    <Title>Principles of Programming</Title>
+    <Location>COORL1-38</Location>
+    <Instructor>miller</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>110</CourseCode>
+    <CourseID>19590</CourseID>
+    <Title>Principles of Programming</Title>
+    <Location>COORL1-38</Location>
+    <Instructor>Staff</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>110</CourseCode>
+    <CourseID>29094</CourseID>
+    <Title>Principles of Programming</Title>
+    <Location>COORL1-38</Location>
+    <Instructor>miller</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>110</CourseCode>
+    <CourseID>29101</CourseID>
+    <Title>Principles of Programming</Title>
+    <Location>COORL1-38</Location>
+    <Instructor>faye</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>110</CourseCode>
+    <CourseID>29107</CourseID>
+    <Title>Principles of Programming</Title>
+    <Location>COORL1-38</Location>
+    <Instructor>faye</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>110</CourseCode>
+    <CourseID>11232</CourseID>
+    <Title>Principles of Programming</Title>
+    <Location>COOR170</Location>
+    <Instructor>Possible Kevin</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>110</CourseCode>
+    <CourseID>22210</CourseID>
+    <Title>Principles of Programming</Title>
+    <Location>COORL1-38</Location>
+    <Instructor>Staff</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>110</CourseCode>
+    <CourseID>29105</CourseID>
+    <Title>Principles of Programming</Title>
+    <Location>COORL1-50</Location>
+    <Instructor>faye</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>110</CourseCode>
+    <CourseID>29093</CourseID>
+    <Title>Principles of Programming</Title>
+    <Location>COORL1-38</Location>
+    <Instructor>miller</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>110</CourseCode>
+    <CourseID>29103</CourseID>
+    <Title>Principles of Programming</Title>
+    <Location>COORL1-50</Location>
+    <Instructor>faye</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>110</CourseCode>
+    <CourseID>11251</CourseID>
+    <Title>Principles of Programming</Title>
+    <Location>COORL1-38</Location>
+    <Instructor>Staff</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>110</CourseCode>
+    <CourseID>29102</CourseID>
+    <Title>Principles of Programming</Title>
+    <Location>COORL1-38</Location>
+    <Instructor>faye</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>110</CourseCode>
+    <CourseID>29098</CourseID>
+    <Title>Principles of Programming</Title>
+    <Location>COORL1-38</Location>
+    <Instructor>miller</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>120</CourseCode>
+    <CourseID>11224</CourseID>
+    <Title>Principles of Programming</Title>
+    <Location>ECGG224</Location>
+    <Instructor>Hartin</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>120</CourseCode>
+    <CourseID>11295</CourseID>
+    <Title>Principles of Programming</Title>
+    <Location>ECGG224</Location>
+    <Instructor>Millman</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>120</CourseCode>
+    <CourseID>11356</CourseID>
+    <Title>Principles of Programming</Title>
+    <Location>ECGG224</Location>
+    <Instructor>Matar</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>120</CourseCode>
+    <CourseID>13386</CourseID>
+    <Title>Principles of Programming</Title>
+    <Location>ECGG224</Location>
+    <Instructor>Millman</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>120</CourseCode>
+    <CourseID>15568</CourseID>
+    <Title>Principles of Programming</Title>
+    <Location>ECGG224</Location>
+    <Instructor>Goryll</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>120</CourseCode>
+    <CourseID>17577</CourseID>
+    <Title>Principles of Programming</Title>
+    <Location>ECGG224</Location>
+    <Instructor>Ewaisha</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>120</CourseCode>
+    <CourseID>20447</CourseID>
+    <Title>Principles of Programming</Title>
+    <Location>ECGG224</Location>
+    <Instructor>Matar</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>120</CourseCode>
+    <CourseID>22050</CourseID>
+    <Title>Object-Oriented Program &amp; Data</Title>
+    <Location>ECGG224</Location>
+    <Instructor>Millman</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>120</CourseCode>
+    <CourseID>28713</CourseID>
+    <Title>Object-Oriented Program &amp; Data</Title>
+    <Location>ECGG224</Location>
+    <Instructor>Staff</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>205</CourseCode>
+    <CourseID>11343</CourseID>
+    <Title>Object-Oriented Program &amp; Data</Title>
+    <Location>EDC117</Location>
+    <Instructor>faye</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>205</CourseCode>
+    <CourseID>15990</CourseID>
+    <Title>Object-Oriented Program &amp; Data</Title>
+    <Location>PSF166</Location>
+    <Instructor>mutsumi</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>205</CourseCode>
+    <CourseID>20461</CourseID>
+    <Title>Object-Oriented Program &amp; Data</Title>
+    <Location>LSE104</Location>
+    <Instructor>faye</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>205</CourseCode>
+    <CourseID>16400</CourseID>
+    <Title>Object-Oriented Program &amp; Data</Title>
+    <Location>CDN60</Location>
+    <Instructor>feng</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>205</CourseCode>
+    <CourseID>11333</CourseID>
+    <Title>Programming for Computer Engr</Title>
+    <Location>EDC117</Location>
+    <Instructor>miller</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>205</CourseCode>
+    <CourseID>11261</CourseID>
+    <Title>Computer Org/Assemb Lang Prog</Title>
+    <Location>LSE104</Location>
+    <Instructor>mutsumi</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>205</CourseCode>
+    <CourseID>12775</CourseID>
+    <Title>Computer Org/Assemb Lang Prog</Title>
+    <Location>LSE104</Location>
+    <Instructor>feng</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>220</CourseCode>
+    <CourseID>11300</CourseID>
+    <Title>Intro to Programming Languages</Title>
+    <Location>CAVC351</Location>
+    <Instructor>Yalin Wang</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>230</CourseCode>
+    <CourseID>11217</CourseID>
+    <Title>Intro to Programming Languages</Title>
+    <Location>LSA191</Location>
+    <Instructor>calliss</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>230</CourseCode>
+    <CourseID>15654</CourseID>
+    <Title>Logic in Computer Science</Title>
+    <Location>PSF166</Location>
+    <Instructor>mutsumi</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>240</CourseCode>
+    <CourseID>13806</CourseID>
+    <Title>Logic in Computer Science</Title>
+    <Location>PSF173</Location>
+    <Instructor>chen</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>240</CourseCode>
+    <CourseID>30957</CourseID>
+    <Title>Logic in Computer Science</Title>
+    <Location>COORL1-74</Location>
+    <Instructor>Chen</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>240</CourseCode>
+    <CourseID>11262</CourseID>
+    <Title>Logic in Computer Science</Title>
+    <Location>COOR170</Location>
+    <Instructor>selgrad</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>259</CourseCode>
+    <CourseID>21266</CourseID>
+    <Title>Computing Ethics</Title>
+    <Location>WXLRA111</Location>
+    <Instructor>Steve Osburn</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>259</CourseCode>
+    <CourseID>21243</CourseID>
+    <Title>Data Structures and Algorithms</Title>
+    <Location>BYAC110</Location>
+    <Instructor>Steve Osburn</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>259</CourseCode>
+    <CourseID>21267</CourseID>
+    <Title>Data Structures and Algorithms</Title>
+    <Location>WXLRA111</Location>
+    <Instructor>Steve Osburn</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>259</CourseCode>
+    <CourseID>22355</CourseID>
+    <Title>Data Structures and Algorithms</Title>
+    <Location>MVHALA121</Location>
+    <Instructor>Steve Osburn</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>310</CourseCode>
+    <CourseID>19683</CourseID>
+    <Title>Data Structures and Algorithms</Title>
+    <Location>BYAC240</Location>
+    <Instructor>xue</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>310</CourseCode>
+    <CourseID>27283</CourseID>
+    <Title>Data Structures and Algorithms</Title>
+    <Location>BYAC240</Location>
+    <Instructor>xue</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>310</CourseCode>
+    <CourseID>23306</CourseID>
+    <Title>Data Structures and Algorithms</Title>
+    <Location>PSH152</Location>
+    <Instructor>yezhou yang</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>310</CourseCode>
+    <CourseID>29114</CourseID>
+    <Title>Data Structures and Algorithms</Title>
+    <Location>SCOB228</Location>
+    <Instructor>xue</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>310</CourseCode>
+    <CourseID>19682</CourseID>
+    <Title>Data Structures and Algorithms</Title>
+    <Location>BYAC240</Location>
+    <Instructor>xue</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>310</CourseCode>
+    <CourseID>23309</CourseID>
+    <Title>Data Structures and Algorithms</Title>
+    <Location>BYAC240</Location>
+    <Instructor>xue</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>310</CourseCode>
+    <CourseID>11724</CourseID>
+    <Title>Data Structures and Algorithms</Title>
+    <Location>PSH153</Location>
+    <Instructor>xue</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>310</CourseCode>
+    <CourseID>19687</CourseID>
+    <Title>Data Structures and Algorithms</Title>
+    <Location>WXLRA203</Location>
+    <Instructor>xue</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>310</CourseCode>
+    <CourseID>23307</CourseID>
+    <Title>Data Structures and Algorithms</Title>
+    <Location>BYAC240</Location>
+    <Instructor>xue</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>310</CourseCode>
+    <CourseID>19688</CourseID>
+    <Title>Data Structures and Algorithms</Title>
+    <Location>WXLRA203</Location>
+    <Instructor>xue</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>310</CourseCode>
+    <CourseID>23310</CourseID>
+    <Title>Design/Syn Digital Hardware</Title>
+    <Location>BYAC240</Location>
+    <Instructor>yezhou yang</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>310</CourseCode>
+    <CourseID>19684</CourseID>
+    <Title>Design/Syn Digital Hardware</Title>
+    <Location>BYAC240</Location>
+    <Instructor>xue</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>310</CourseCode>
+    <CourseID>23308</CourseID>
+    <Title>Design/Syn Digital Hardware</Title>
+    <Location>BYAC240</Location>
+    <Instructor>yezhou yang</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>310</CourseCode>
+    <CourseID>19685</CourseID>
+    <Title>Embedded Microprocessor System</Title>
+    <Location>BYAC240</Location>
+    <Instructor>xue</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>310</CourseCode>
+    <CourseID>19686</CourseID>
+    <Title>Embedded Microprocessor System</Title>
+    <Location>BYAC240</Location>
+    <Instructor>xue</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>320</CourseCode>
+    <CourseID>11274</CourseID>
+    <Title>Embedded Microprocessor System</Title>
+    <Location>BYAC150</Location>
+    <Instructor>FENGBO</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>320</CourseCode>
+    <CourseID>21374</CourseID>
+    <Title>Operating Systems</Title>
+    <Location>BYAC190</Location>
+    <Instructor>FENGBO</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>320</CourseCode>
+    <CourseID>21373</CourseID>
+    <Title>Operating Systems</Title>
+    <Location>BYAC190</Location>
+    <Instructor>FENGBO</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>325</CourseCode>
+    <CourseID>19690</CourseID>
+    <Title>Operating Systems</Title>
+    <Location>BYAC190</Location>
+    <Instructor>Meuth</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>325</CourseCode>
+    <CourseID>19691</CourseID>
+    <Title>Operating Systems</Title>
+    <Location>BYAC190</Location>
+    <Instructor>Meuth</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>325</CourseCode>
+    <CourseID>18820</CourseID>
+    <Title>Operating Systems</Title>
+    <Location>CAVC359</Location>
+    <Instructor>Meuth</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>330</CourseCode>
+    <CourseID>21168</CourseID>
+    <Title>Operating Systems</Title>
+    <Location>BYAC260</Location>
+    <Instructor>DASGUPTA</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>330</CourseCode>
+    <CourseID>20876</CourseID>
+    <Title>Operating Systems</Title>
+    <Location>BYAC260</Location>
+    <Instructor>Ayan</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>330</CourseCode>
+    <CourseID>21169</CourseID>
+    <Title>Operating Systems</Title>
+    <Location>BYAC260</Location>
+    <Instructor>DASGUPTA</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>330</CourseCode>
+    <CourseID>20872</CourseID>
+    <Title>Operating Systems</Title>
+    <Location>BYAC260</Location>
+    <Instructor>ZHAO</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>330</CourseCode>
+    <CourseID>19457</CourseID>
+    <Title>Operating Systems</Title>
+    <Location>COORL1-20</Location>
+    <Instructor>DASGUPTA</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>330</CourseCode>
+    <CourseID>11269</CourseID>
+    <Title>Operating Systems</Title>
+    <Location>COORL1-20</Location>
+    <Instructor>ZHAO</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>330</CourseCode>
+    <CourseID>20877</CourseID>
+    <Title>Operating Systems</Title>
+    <Location>BYAC260</Location>
+    <Instructor>Ayan</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>330</CourseCode>
+    <CourseID>21171</CourseID>
+    <Title>Operating Systems</Title>
+    <Location>BYAC260</Location>
+    <Instructor>DASGUPTA</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>330</CourseCode>
+    <CourseID>20875</CourseID>
+    <Title>Operating Systems</Title>
+    <Location>COORL1-84</Location>
+    <Instructor>Ayan</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>330</CourseCode>
+    <CourseID>20878</CourseID>
+    <Title>Princ of Mobile App Dev</Title>
+    <Location>BYAC260</Location>
+    <Instructor>Ayan</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>330</CourseCode>
+    <CourseID>13028</CourseID>
+    <Title>Principles of Programming Lang</Title>
+    <Location>CDN68</Location>
+    <Instructor>Ayan</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>330</CourseCode>
+    <CourseID>20874</CourseID>
+    <Title>Principles of Programming Lang</Title>
+    <Location>BYAC190</Location>
+    <Instructor>ZHAO</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>330</CourseCode>
+    <CourseID>20873</CourseID>
+    <Title>Principles of Programming Lang</Title>
+    <Location>BYAC260</Location>
+    <Instructor>ZHAO</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>335</CourseCode>
+    <CourseID>21044</CourseID>
+    <Title>Principles of Programming Lang</Title>
+    <Location>PSH152</Location>
+    <Instructor>janaka</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>340</CourseCode>
+    <CourseID>19695</CourseID>
+    <Title>Principles of Programming Lang</Title>
+    <Location>BYENGM1-09</Location>
+    <Instructor>Bazzi</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>340</CourseCode>
+    <CourseID>11315</CourseID>
+    <Title>Principles of Programming Lang</Title>
+    <Location>PSH150</Location>
+    <Instructor>Bazzi</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>340</CourseCode>
+    <CourseID>29115</CourseID>
+    <Title>Principles of Programming Lang</Title>
+    <Location>BYAC260</Location>
+    <Instructor>Bazzi</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>340</CourseCode>
+    <CourseID>14190</CourseID>
+    <Title>Principles of Programming Lang</Title>
+    <Location>PSH152</Location>
+    <Instructor>Bazzi</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>340</CourseCode>
+    <CourseID>19696</CourseID>
+    <Title>Principles of Programming Lang</Title>
+    <Location>BYAC270</Location>
+    <Instructor>Bazzi</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>340</CourseCode>
+    <CourseID>19692</CourseID>
+    <Title>Principles of Programming Lang</Title>
+    <Location>BYAC260</Location>
+    <Instructor>Bazzi</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>340</CourseCode>
+    <CourseID>19693</CourseID>
+    <Title>Intro Theoretical Computer Sci</Title>
+    <Location>BYENGM1-09</Location>
+    <Instructor>Bazzi</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>340</CourseCode>
+    <CourseID>19698</CourseID>
+    <Title>Intro Theoretical Computer Sci</Title>
+    <Location>BYAC270</Location>
+    <Instructor>Bazzi</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>340</CourseCode>
+    <CourseID>19697</CourseID>
+    <Title>Intro Theoretical Computer Sci</Title>
+    <Location>BYAC270</Location>
+    <Instructor>Bazzi</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>355</CourseCode>
+    <CourseID>19708</CourseID>
+    <Title>Intro Theoretical Computer Sci</Title>
+    <Location>BYAC190</Location>
+    <Instructor>Ben Amor</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>355</CourseCode>
+    <CourseID>19705</CourseID>
+    <Title>Intro Theoretical Computer Sci</Title>
+    <Location>BYAC190</Location>
+    <Instructor>Fainekos</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>355</CourseCode>
+    <CourseID>19702</CourseID>
+    <Title>Intro Theoretical Computer Sci</Title>
+    <Location>BYAC190</Location>
+    <Instructor>colbourn</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>355</CourseCode>
+    <CourseID>19707</CourseID>
+    <Title>Intro Theoretical Computer Sci</Title>
+    <Location>BYAC190</Location>
+    <Instructor>Ben Amor</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>355</CourseCode>
+    <CourseID>19710</CourseID>
+    <Title>Intro Theoretical Computer Sci</Title>
+    <Location>BYAC190</Location>
+    <Instructor>Ben Amor</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>355</CourseCode>
+    <CourseID>14505</CourseID>
+    <Title>Intro Theoretical Computer Sci</Title>
+    <Location>COORL1-20</Location>
+    <Instructor>colbourn</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>355</CourseCode>
+    <CourseID>19703</CourseID>
+    <Title>Intro Theoretical Computer Sci</Title>
+    <Location>BYAC190</Location>
+    <Instructor>Fainekos</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>355</CourseCode>
+    <CourseID>23314</CourseID>
+    <Title>Intro Theoretical Computer Sci</Title>
+    <Location>COORL1-20</Location>
+    <Instructor>Fainekos</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>355</CourseCode>
+    <CourseID>19701</CourseID>
+    <Title>Intro Theoretical Computer Sci</Title>
+    <Location>BYAC190</Location>
+    <Instructor>colbourn</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>355</CourseCode>
+    <CourseID>19709</CourseID>
+    <Title>Intro Theoretical Computer Sci</Title>
+    <Location>BYAC190</Location>
+    <Instructor>Ben Amor</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>355</CourseCode>
+    <CourseID>19706</CourseID>
+    <Title>Intro Theoretical Computer Sci</Title>
+    <Location>BYAC190</Location>
+    <Instructor>Fainekos</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>355</CourseCode>
+    <CourseID>19704</CourseID>
+    <Title>Intro Theoretical Computer Sci</Title>
+    <Location>BYAC190</Location>
+    <Instructor>Fainekos</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>355</CourseCode>
+    <CourseID>19700</CourseID>
+    <Title>Intro to Software Engineering</Title>
+    <Location>BYAC190</Location>
+    <Instructor>colbourn</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>355</CourseCode>
+    <CourseID>23315</CourseID>
+    <Title>Intro to Software Engineering</Title>
+    <Location>COORL1-20</Location>
+    <Instructor>Ben Amor</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>360</CourseCode>
+    <CourseID>11301</CourseID>
+    <Title>Information Assurance</Title>
+    <Location>CDN60</Location>
+    <Instructor>callis</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>360</CourseCode>
+    <CourseID>26013</CourseID>
+    <Title>Multimedia Information Systems</Title>
+    <Location>CDN60</Location>
+    <Instructor>callis</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>365</CourseCode>
+    <CourseID>21120</CourseID>
+    <Title>Database Management</Title>
+    <Location>PSH153</Location>
+    <Instructor>fish wang</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>365</CourseCode>
+    <CourseID>30853</CourseID>
+    <Title>Computer Architecture I</Title>
+    <Location>LIBC12</Location>
+    <Instructor>fish wang</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>408</CourseCode>
+    <CourseID>21593</CourseID>
+    <Title>Systems Capstone Project I</Title>
+    <Location>SCOB228</Location>
+    <Instructor>Staff</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>412</CourseCode>
+    <CourseID>21128</CourseID>
+    <Title>Systems Capstone Project I</Title>
+    <Location>PSH150</Location>
+    <Instructor>sarwat</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>420</CourseCode>
+    <CourseID>11268</CourseID>
+    <Title>Systems Capstone Project I</Title>
+    <Location>COOR174</Location>
+    <Instructor>aviral</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>423</CourseCode>
+    <CourseID>13030</CourseID>
+    <Title>Systems Capstone Project I</Title>
+    <Location>BYENGM1-09</Location>
+    <Instructor>Meuth</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>423</CourseCode>
+    <CourseID>13030</CourseID>
+    <Title>Systems Capstone Project II</Title>
+    <Location>INTRT</Location>
+    <Instructor>Meuth</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>424</CourseCode>
+    <CourseID>11212</CourseID>
+    <Title>Systems Capstone Project II</Title>
+    <Location>BYENGM1-09</Location>
+    <Instructor>meuth</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>424</CourseCode>
+    <CourseID>11212</CourseID>
+    <Title>Systems Capstone Project II</Title>
+    <Location>INTRT</Location>
+    <Instructor>Meuth</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>434</CourseCode>
+    <CourseID>11223</CourseID>
+    <Title>Systems Capstone Project II</Title>
+    <Location>Cavc359</Location>
+    <Instructor>syrotiuk</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>445</CourseCode>
+    <CourseID>11326</CourseID>
+    <Title>Computer Networks</Title>
+    <Location>SCOB210</Location>
+    <Instructor>janaka</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>446</CourseCode>
+    <CourseID>14506</CourseID>
+    <Title>Distributed Software Developmt</Title>
+    <Location>LIBC10</Location>
+    <Instructor>chen</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>450</CourseCode>
+    <CourseID>21121</CourseID>
+    <Title>Software Integration and Engr</Title>
+    <Location>COORL1-74</Location>
+    <Instructor>Richa</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>460</CourseCode>
+    <CourseID>11725</CourseID>
+    <Title>Design&amp;Analysis of Algorithms</Title>
+    <Location>LIBC12</Location>
+    <Instructor>Sarjoughian</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>463</CourseCode>
+    <CourseID>14179</CourseID>
+    <Title>Software Analysis and Design</Title>
+    <Location>BAC116</Location>
+    <Instructor>Atkinson</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>464</CourseCode>
+    <CourseID>21784</CourseID>
+    <Title>Intro Human Computer Interactn</Title>
+    <Location>PSH152</Location>
+    <Instructor>janaka</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>469</CourseCode>
+    <CourseID>14518</CourseID>
+    <Title>Software QA and Testing</Title>
+    <Location>COOR120</Location>
+    <Instructor>tiffany bao</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>470</CourseCode>
+    <CourseID>20425</CourseID>
+    <Title>Computer and Network Forensics</Title>
+    <Location>BYAC110</Location>
+    <Instructor>hansford</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>471</CourseCode>
+    <CourseID>13070</CourseID>
+    <Title>Computer Graphics</Title>
+    <Location>PSH153</Location>
+    <Instructor>Gil</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>485</CourseCode>
+    <CourseID>20117</CourseID>
+    <Title>Intro Artificial Intelligence</Title>
+    <Location>BYAC270</Location>
+    <Instructor>helen</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>485</CourseCode>
+    <CourseID>23019</CourseID>
+    <Title>Computer Sci Capstone Proj I</Title>
+    <Location>BYAC110</Location>
+    <Instructor>helen</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>485</CourseCode>
+    <CourseID>30990</CourseID>
+    <Title>Computer Sci Capstone Proj I</Title>
+    <Location>BYAC270</Location>
+    <Instructor>helen</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>485</CourseCode>
+    <CourseID>13081</CourseID>
+    <Title>Computer Sci Capstone Proj I</Title>
+    <Location>BYAC110</Location>
+    <Instructor>helen</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>485</CourseCode>
+    <CourseID>20118</CourseID>
+    <Title>Computer Sci Capstone Proj I</Title>
+    <Location>BYAC270</Location>
+    <Instructor>helen</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>485</CourseCode>
+    <CourseID>20119</CourseID>
+    <Title>Computer Sci Capstone Proj I</Title>
+    <Location>BYAC270</Location>
+    <Instructor>helen</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>485</CourseCode>
+    <CourseID>26090</CourseID>
+    <Title>Computer Sci Capstone Proj I</Title>
+    <Location>BYENGM1-09</Location>
+    <Instructor>helen</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>485</CourseCode>
+    <CourseID>30991</CourseID>
+    <Title>Computer Sci Capstone Proj I</Title>
+    <Location>BYAC270</Location>
+    <Instructor>helen</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>486</CourseCode>
+    <CourseID>17141</CourseID>
+    <Title>Computer Sci Capstone Proj I</Title>
+    <Location>BYAC150</Location>
+    <Instructor>helen</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>486</CourseCode>
+    <CourseID>19979</CourseID>
+    <Title>Computer Sci Capstone Proj I</Title>
+    <Location>BYAC150</Location>
+    <Instructor>helen</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>486</CourseCode>
+    <CourseID>19293</CourseID>
+    <Title>Computer Sci Capstone Proj I</Title>
+    <Location>BYAC150</Location>
+    <Instructor>helen</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>486</CourseCode>
+    <CourseID>20121</CourseID>
+    <Title>Computer Sci Capstone Proj I</Title>
+    <Location>BYAC270</Location>
+    <Instructor>helen</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>486</CourseCode>
+    <CourseID>20120</CourseID>
+    <Title>Computer Sci Capstone Proj II</Title>
+    <Location>BYAC150</Location>
+    <Instructor>helen</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>486</CourseCode>
+    <CourseID>11222</CourseID>
+    <Title>Computer Sci Capstone Proj II</Title>
+    <Location>BYAC150</Location>
+    <Instructor>helen</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>510</CourseCode>
+    <CourseID>13029</CourseID>
+    <Title>Computer Sci Capstone Proj II</Title>
+    <Location>COORL1-74</Location>
+    <Instructor>candan</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>512</CourseCode>
+    <CourseID>21124</CourseID>
+    <Title>Computer Sci Capstone Proj II</Title>
+    <Location>COORL1-74</Location>
+    <Instructor>sarwat</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>520</CourseCode>
+    <CourseID>21131</CourseID>
+    <Title>Computer Sci Capstone Proj II</Title>
+    <Location>COORL1-20</Location>
+    <Instructor>lee</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>530</CourseCode>
+    <CourseID>32110</CourseID>
+    <Title>Embed Operating Sys Internals</Title>
+    <Location>CAVC351</Location>
+    <Instructor>lee</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>535</CourseCode>
+    <CourseID>19325</CourseID>
+    <Title>Computer Sci Capstone Proj II</Title>
+    <Location>CAVC351</Location>
+    <Instructor>Ayan</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>543</CourseCode>
+    <CourseID>27374</CourseID>
+    <Title>Computer Sci Capstone Proj II</Title>
+    <Location>COORL1-74</Location>
+    <Instructor>yau</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>545</CourseCode>
+    <CourseID>18810</CourseID>
+    <Title>Computer Sci Capstone Proj II</Title>
+    <Location>COOR174</Location>
+    <Instructor>yau</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>546</CourseCode>
+    <CourseID>21127</CourseID>
+    <Title>Computer Sci Capstone Proj II</Title>
+    <Location>cavc351</Location>
+    <Instructor>zhao</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>551</CourseCode>
+    <CourseID>23343</CourseID>
+    <Title>Computer Sci Capstone Proj II</Title>
+    <Location>Psh153</Location>
+    <Instructor>sen</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>551</CourseCode>
+    <CourseID>30959</CourseID>
+    <Title>Introduction to Engineering</Title>
+    <Location>PSH153</Location>
+    <Instructor>sen</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>555</CourseCode>
+    <CourseID>27203</CourseID>
+    <Title>Introduction to Engineering</Title>
+    <Location>CDS234</Location>
+    <Instructor>colbourn</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>564</CourseCode>
+    <CourseID>27211</CourseID>
+    <Title>Grand Challenges for Engrg</Title>
+    <Location>ECGG236</Location>
+    <Instructor>sarjoughian</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>566</CourseCode>
+    <CourseID>11339</CourseID>
+    <Title>Tech; Social; &amp; Sustain System</Title>
+    <Location>CAVC351</Location>
+    <Instructor>collofello</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>571</CourseCode>
+    <CourseID>27252</CourseID>
+    <Title>Topic: Exploring Leadership Potential</Title>
+    <Location>COORL1-74</Location>
+    <Instructor>Zhang</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>572</CourseCode>
+    <CourseID>25946</CourseID>
+    <Title>Entrepreneur &amp; Value Creation</Title>
+    <Location>CAVC351</Location>
+    <Instructor>Ayan</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>572</CourseCode>
+    <CourseID>30961</CourseID>
+    <Title>Topic: Academic Success and Professional Development</Title>
+    <Location>CAVC351</Location>
+    <Instructor>AYAN</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>573</CourseCode>
+    <CourseID>27254</CourseID>
+    <Title>Strategic Enterprise Innovatin</Title>
+    <Location>CDN68</Location>
+    <Instructor>Davulcu</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>575</CourseCode>
+    <CourseID>27223</CourseID>
+    <Title>Intro Industrial Engineering</Title>
+    <Location>PSH150</Location>
+    <Instructor>Yang</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>576</CourseCode>
+    <CourseID>23382</CourseID>
+    <Title>Business/Industrial Engr</Title>
+    <Location>CAVC351</Location>
+    <Instructor>chitta baral</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>578</CourseCode>
+    <CourseID>30962</CourseID>
+    <Title>Economic Analys for Engineers</Title>
+    <Location>COOR L1-20</Location>
+    <Instructor>hsiao</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>591</CourseCode>
+    <CourseID>27953</CourseID>
+    <Title>Seminar</Title>
+    <Location>BYENG210</Location>
+    <Instructor>Liang</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>591</CourseCode>
+    <CourseID>27334</CourseID>
+    <Title>Seminar</Title>
+    <Location>COOR120</Location>
+    <Instructor>Yu Zhang</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>591</CourseCode>
+    <CourseID>32123</CourseID>
+    <Title>Seminar</Title>
+    <Location>BYENGM1-11</Location>
+    <Instructor>Fainekos</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>591</CourseCode>
+    <CourseID>16401</CourseID>
+    <Title>Seminar</Title>
+    <Location>CAVC359</Location>
+    <Instructor>Yang</Instructor>
+  </Course>
+  <Course>
+    <Subject>CSE</Subject>
+    <CourseCode>591</CourseCode>
+    <CourseID>18782</CourseID>
+    <Title>Seminar</Title>
+    <Location>BYAC270</Location>
+    <Instructor>Amor</Instructor>
+  </Course>
+  <Course>
+    <Subject>FSE</Subject>
+    <CourseCode>100</CourseCode>
+    <CourseID>27635</CourseID>
+    <Title>Introduction to Engineering</Title>
+    <Location>PSH153</Location>
+    <Instructor>Chen</Instructor>
+  </Course>
+  <Course>
+    <Subject>FSE</Subject>
+    <CourseCode>100</CourseCode>
+    <CourseID>83218</CourseID>
+    <Title>Introduction to Engineering</Title>
+    <Location>BYAC270</Location>
+    <Instructor>Meuth</Instructor>
+  </Course>
+  <Course>
+    <Subject>FSE</Subject>
+    <CourseCode>150</CourseCode>
+    <CourseID>82455</CourseID>
+    <Title>Grand Challenges for Engrg</Title>
+    <Location>INTRT</Location>
+    <Instructor>Trowbridge</Instructor>
+  </Course>
+  <Course>
+    <Subject>FSE</Subject>
+    <CourseCode>181</CourseCode>
+    <CourseID>79345</CourseID>
+    <Title>Tech; Social; &amp; Sustain System</Title>
+    <Location>BYAC270</Location>
+    <Instructor>Allenby</Instructor>
+  </Course>
+  <Course>
+    <Subject>FSE</Subject>
+    <CourseCode>194</CourseCode>
+    <CourseID>90190</CourseID>
+    <Title>Topic: Exploring Leadership Potential</Title>
+    <Location>INTRT</Location>
+    <Instructor>Silva</Instructor>
+  </Course>
+  <Course>
+    <Subject>FSE</Subject>
+    <CourseCode>301</CourseCode>
+    <CourseID>87876</CourseID>
+    <Title>Entrepreneur &amp; Value Creation</Title>
+    <Location>BYAC270</Location>
+    <Instructor>Troness</Instructor>
+  </Course>
+  <Course>
+    <Subject>FSE</Subject>
+    <CourseCode>394</CourseCode>
+    <CourseID>85759</CourseID>
+    <Title>Topic: Academic Success and Professional Development</Title>
+    <Location>INTRT</Location>
+    <Instructor>Anderson-Rowland</Instructor>
+  </Course>
+  <Course>
+    <Subject>FSE</Subject>
+    <CourseCode>502</CourseCode>
+    <CourseID>92378</CourseID>
+    <Title>Strategic Enterprise Innovatin</Title>
+    <Location>BYAC270</Location>
+    <Instructor>Trappen</Instructor>
+  </Course>
+  <Course>
+    <Subject>IEE</Subject>
+    <CourseCode>210</CourseCode>
+    <CourseID>71307</CourseID>
+    <Title>Intro Industrial Engineering</Title>
+    <Location>INTRT</Location>
+    <Instructor>Clough</Instructor>
+  </Course>
+  <Course>
+    <Subject>IEE</Subject>
+    <CourseCode>220</CourseCode>
+    <CourseID>73291</CourseID>
+    <Title>Business/Industrial Engr</Title>
+    <Location>BYENGM1-09</Location>
+    <Instructor>Fleischner</Instructor>
+  </Course>
+  <Course>
+    <Subject>IEE</Subject>
+    <CourseCode>300</CourseCode>
+    <CourseID>71308</CourseID>
+    <Title>Economic Analys for Engineers</Title>
+    <Location>INTRT</Location>
+    <Instructor>Jennings</Instructor>
+  </Course>
+  <Course>
+    <Subject>IEE</Subject>
+    <CourseCode>376</CourseCode>
+    <CourseID>71310</CourseID>
+    <Title>Oper Rsrch Det Tech/Apps</Title>
+    <Location>BYAC110</Location>
+    <Instructor>Mirchandani</Instructor>
+  </Course>
+  <Course>
+    <Subject>IEE</Subject>
+    <CourseCode>380</CourseCode>
+    <CourseID>77308</CourseID>
+    <Title>Prob &amp; Stats Engr Prob Solving</Title>
+    <Location>BYENGM1-09</Location>
+    <Instructor>Chattin</Instructor>
+  </Course>
+  <Course>
+    <Subject>IEE</Subject>
+    <CourseCode>380</CourseCode>
+    <CourseID>87728</CourseID>
+    <Title>Prob &amp; Stats Engr Prob Solving</Title>
+    <Location>-</Location>
+    <Instructor>Bren</Instructor>
+  </Course>
+  <Course>
+    <Subject>IEE</Subject>
+    <CourseCode>385</CourseCode>
+    <CourseID>80376</CourseID>
+    <Title>Engr Statistics - Probability</Title>
+    <Location>BYAC270</Location>
+    <Instructor>Chattin</Instructor>
+  </Course>
+  <Course>
+    <Subject>IEE</Subject>
+    <CourseCode>394</CourseCode>
+    <CourseID>78677</CourseID>
+    <Title>Topic: Extreme Excel</Title>
+    <Location>INTRT</Location>
+    <Instructor>McCarville</Instructor>
+  </Course>
+  <Course>
+    <Subject>IEE</Subject>
+    <CourseCode>412</CourseCode>
+    <CourseID>80379</CourseID>
+    <Title>Intro to Financial Engineering</Title>
+    <Location>BYAC150</Location>
+    <Instructor>McCarville</Instructor>
+  </Course>
+  <Course>
+    <Subject>IEE</Subject>
+    <CourseCode>426</CourseCode>
+    <CourseID>91345</CourseID>
+    <Title>Operations Rrsch in Healthcare</Title>
+    <Location>INTRT</Location>
+    <Instructor>Wu</Instructor>
+  </Course>
+  <Course>
+    <Subject>IEE</Subject>
+    <CourseCode>431</CourseCode>
+    <CourseID>91929</CourseID>
+    <Title>Engineering Administration</Title>
+    <Location>PSH153</Location>
+    <Instructor>Jennings</Instructor>
+  </Course>
+  <Course>
+    <Subject>IEE</Subject>
+    <CourseCode>437</CourseCode>
+    <CourseID>71311</CourseID>
+    <Title>Human Factors Engineering</Title>
+    <Location>BYAC270</Location>
+    <Instructor>Parry</Instructor>
+  </Course>
+  <Course>
+    <Subject>IEE</Subject>
+    <CourseCode>454</CourseCode>
+    <CourseID>77730</CourseID>
+    <Title>Risk Management</Title>
+    <Location>INTRT</Location>
+    <Instructor>McCarville</Instructor>
+  </Course>
+  <Course>
+    <Subject>IEE</Subject>
+    <CourseCode>461</CourseCode>
+    <CourseID>77813</CourseID>
+    <Title>Production Control</Title>
+    <Location>BYAC270</Location>
+    <Instructor>Chattin</Instructor>
+  </Course>
+  <Course>
+    <Subject>IEE</Subject>
+    <CourseCode>470</CourseCode>
+    <CourseID>72508</CourseID>
+    <Title>Stochastic Operations Research</Title>
+    <Location>INTRT</Location>
+    <Instructor>Ju</Instructor>
+  </Course>
+  <Course>
+    <Subject>IEE</Subject>
+    <CourseCode>474</CourseCode>
+    <CourseID>74270</CourseID>
+    <Title>Quality Control</Title>
+    <Location>BYAC270</Location>
+    <Instructor>Li</Instructor>
+  </Course>
+  <Course>
+    <Subject>IEE</Subject>
+    <CourseCode>506</CourseCode>
+    <CourseID>91213</CourseID>
+    <Title>Web-Enabled Decn Support Systs</Title>
+    <Location>INTRT</Location>
+    <Instructor>Ye</Instructor>
+  </Course>
+  <Course>
+    <Subject>IEE</Subject>
+    <CourseCode>511</CourseCode>
+    <CourseID>75531</CourseID>
+    <Title>Analysis of Decision Processes</Title>
+    <Location>BYAC270</Location>
+    <Instructor>Mirchandani</Instructor>
+  </Course>
+  <Course>
+    <Subject>IEE</Subject>
+    <CourseCode>512</CourseCode>
+    <CourseID>91879</CourseID>
+    <Title>Intro to Financial Engineering</Title>
+    <Location>INTRT</Location>
+    <Instructor>McCarville</Instructor>
+  </Course>
+  <Course>
+    <Subject>IEE</Subject>
+    <CourseCode>520</CourseCode>
+    <CourseID>72692</CourseID>
+    <Title>Stat Learning for Data Mining</Title>
+    <Location>BYENGM1-09</Location>
+    <Instructor>Runger</Instructor>
+  </Course>
+  <Course>
+    <Subject>IEE</Subject>
+    <CourseCode>526</CourseCode>
+    <CourseID>91346</CourseID>
+    <Title>Operations Rrsch in Healthcare</Title>
+    <Location>INTRT</Location>
+    <Instructor>Wu</Instructor>
+  </Course>
+  <Course>
+    <Subject>IEE</Subject>
+    <CourseCode>545</CourseCode>
+    <CourseID>91992</CourseID>
+    <Title>Simulating Stochastic Systems</Title>
+    <Location>BYAC110</Location>
+    <Instructor>Staff</Instructor>
+  </Course>
+  <Course>
+    <Subject>IEE</Subject>
+    <CourseCode>547</CourseCode>
+    <CourseID>71313</CourseID>
+    <Title>Human Factors Engineering</Title>
+    <Location>BYENGM1-09</Location>
+    <Instructor>Parry</Instructor>
+  </Course>
+  <Course>
+    <Subject>IEE</Subject>
+    <CourseCode>571</CourseCode>
+    <CourseID>92066</CourseID>
+    <Title>Quality Management</Title>
+    <Location>-</Location>
+    <Instructor>Jennings</Instructor>
+  </Course>
+  <Course>
+    <Subject>IEE</Subject>
+    <CourseCode>572</CourseCode>
+    <CourseID>75775</CourseID>
+    <Title>Design Engineering Experiments</Title>
+    <Location>BYAC270</Location>
+    <Instructor>Montgomery</Instructor>
+  </Course>
+  <Course>
+    <Subject>IEE</Subject>
+    <CourseCode>573</CourseCode>
+    <CourseID>91770</CourseID>
+    <Title>Reliability Engineering</Title>
+    <Location>INTRT</Location>
+    <Instructor>Pan</Instructor>
+  </Course>
+</Root>

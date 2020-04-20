@@ -124,11 +124,12 @@ namespace Assignment_8.Controller
         public void ConvertCourseDataToXml()
         {
             // Read in all of the csv data from the file
-            string [] csvData = File.ReadAllLines(mCourseFilePath);
+            string[] csvData = File.ReadAllLines(mCourseFilePath);
             // Convert into an xml object
             XElement courses = new XElement("Root",
                 from line in csvData
                 let properties = line.Split(",")
+                where properties[0] != "Subject"
                 select new XElement("Course",
                     new XElement("Subject", properties[0]),
                     new XElement("CourseCode", properties[1]),
@@ -215,6 +216,27 @@ namespace Assignment_8.Controller
 
         // LINQ Queries
 
+        /// <summary>
+        /// Gets all of the CPI courses level 200 or higher and returns the 
+        /// title and instructor sorted based on instructor name.
+        /// </summary>
+        /// <returns>
+        /// An enumerable of xelement objects sorted on instructor element
+        /// </returns>
+        public IEnumerable<XElement> GetCPICourses()
+        {
+            IEnumerable<XElement> query =
+                from course in mXmlCourseData.Elements("Course")
+                where (string)course.Element("Subject") == "CPI" && (int)course.Element("CourseCode") >= 200
+                orderby (string)course.Element("Instructor") ascending
+                select new XElement("Result",
+                    new XElement("Title", course.Element("Title")),
+                    new XElement("Instructor", course.Element("Instructor"))
+                );
+
+            return query;
+        }
+
         public IEnumerable<dynamic> GetIEECourses()
         {
             IEnumerable<dynamic> query =
@@ -224,6 +246,23 @@ namespace Assignment_8.Controller
                 select new { Title = course.Title, Instructor = course.Instructor };
 
             return query;
+        }
+
+        public void ViewGroupCoursesXML()
+        {
+            // Convert all elements into course objects
+            foreach(XElement course in mXmlCourseData.Elements("Course"))
+            {
+                if (course != null)
+                {
+                    Course entry = new Course(course);
+                    mTempCourseList.Add(entry);
+                }
+            }
+            // Convert into the mCourses list
+            mCourses = mTempCourseList.ToArray();
+            // Group the courses
+            ViewGroupCourses();
         }
 
         public void ViewGroupCourses()
@@ -253,6 +292,27 @@ namespace Assignment_8.Controller
             }
         }
 
+        public void View200LvlcourseDataXml()
+        {
+            IEnumerable<XElement> courseData =
+                from course in mXmlCourseData.Elements("Course")
+                join Instructor in mInstructors on (string) course.Element("Instructor") equals Instructor.InstructorName
+                select new XElement("Result",
+                    new XElement("Subject", course.Elements("Subject")),
+                    new XElement("CourseCode", course.Elements("CourseCode")),
+                    new XElement("InstructorEmail", Instructor.EmailAddress)
+                );
+
+            // Print to the screen
+            foreach(XElement course in courseData)
+            {
+                if((int) course.Element("CourseCode") >= 200)
+                {
+                    Console.WriteLine($"{(string)course.Element("Subject")} {(int)course.Element("CourseCode")} -- {(string)course.Element("InstructorEmail")}");
+                }
+            }
+        }
+
         public void View200LvlCourseData()
         {
             var courseData =
@@ -276,7 +336,7 @@ namespace Assignment_8.Controller
                group course by course.Instructor into uniqueInstructors
                select uniqueInstructors;
 
-            foreach(var instruct in instructorList)
+            foreach (var instruct in instructorList)
             {
                 Console.WriteLine(instruct.Key);
             }
