@@ -1,0 +1,1563 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Program xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="/ StateFileSchema.xsd" VIPLE_Type="1">
+  <Version>3.9.1.1</Version>
+  <ProgrammingPanel Name="Main">
+    <Variables />
+    <Activity IsFlipped="false">
+      <ActivityNameInt>1</ActivityNameInt>
+      <ActivityID>0</ActivityID>
+      <PreviousActivities>
+        <ActivityID>3</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>30</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>0</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>1</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>70</Left>
+        <Top>532.08</Top>
+      </Location>
+      <Values>
+        <Value>N</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>1</ActivityNameInt>
+      <ActivityID>1</ActivityID>
+      <PreviousActivities>
+        <ActivityID>29</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>2</ActivityID>
+        <ActivityID>5</ActivityID>
+        <ActivityID>7</ActivityID>
+        <ActivityID>41</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>2</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>3</GraphEdgeID>
+        <GraphEdgeID>4</GraphEdgeID>
+        <GraphEdgeID>5</GraphEdgeID>
+        <GraphEdgeID>6</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>336</Left>
+        <Top>530.08</Top>
+      </Location>
+      <Values>
+        <Value>InputData</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>2</ActivityNameInt>
+      <ActivityID>2</ActivityID>
+      <PreviousActivities>
+        <ActivityID>1</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>4</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>3</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>7</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>526</Left>
+        <Top>313.08</Top>
+      </Location>
+      <Values>
+        <Value>"The input string is : " + value</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>12</ActivityNameInt>
+      <ActivityID>3</ActivityID>
+      <PreviousActivities />
+      <NextActivities>
+        <ActivityID>0</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines />
+      <OutgoingLines>
+        <GraphEdgeID>0</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>42.1133333333333</Left>
+        <Top>639.08</Top>
+      </Location>
+      <Values>
+        <Value Index="0">PromptDialog</Value>
+        <Value Index="1">"How many threads would you like to use?"</Value>
+        <Value Index="2">1</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>28</ActivityNameInt>
+      <ActivityID>4</ActivityID>
+      <PreviousActivities>
+        <ActivityID>2</ActivityID>
+      </PreviousActivities>
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>7</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>784.113333333333</Left>
+        <Top>312.08</Top>
+      </Location>
+      <Values>
+        <Value></Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>2</ActivityNameInt>
+      <ActivityID>5</ActivityID>
+      <PreviousActivities>
+        <ActivityID>1</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>6</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>4</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>8</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>522.113333333333</Left>
+        <Top>413.08</Top>
+      </Location>
+      <Values>
+        <Value>"The total length is : " + state.InputData.Length</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>28</ActivityNameInt>
+      <ActivityID>6</ActivityID>
+      <PreviousActivities>
+        <ActivityID>5</ActivityID>
+      </PreviousActivities>
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>8</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>864.113333333333</Left>
+        <Top>414.08</Top>
+      </Location>
+      <Values>
+        <Value></Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>2</ActivityNameInt>
+      <ActivityID>7</ActivityID>
+      <PreviousActivities>
+        <ActivityID>1</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>8</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>5</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>9</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>511.113333333333</Left>
+        <Top>509.08</Top>
+      </Location>
+      <Values>
+        <Value>state.InputData.Length / state.N</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>1</ActivityNameInt>
+      <ActivityID>8</ActivityID>
+      <PreviousActivities>
+        <ActivityID>7</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>9</ActivityID>
+        <ActivityID>11</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>9</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>10</GraphEdgeID>
+        <GraphEdgeID>11</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>742.113333333333</Left>
+        <Top>539.08</Top>
+      </Location>
+      <Values>
+        <Value>Part</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>2</ActivityNameInt>
+      <ActivityID>9</ActivityID>
+      <PreviousActivities>
+        <ActivityID>8</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>10</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>10</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>12</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>1175.11333333333</Left>
+        <Top>419.08</Top>
+      </Location>
+      <Values>
+        <Value>"The length of each part is: " + value</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>28</ActivityNameInt>
+      <ActivityID>10</ActivityID>
+      <PreviousActivities>
+        <ActivityID>9</ActivityID>
+      </PreviousActivities>
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>12</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>1487.77331670434</Left>
+        <Top>413.08</Top>
+      </Location>
+      <Values>
+        <Value></Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>5</ActivityNameInt>
+      <ActivityID>11</ActivityID>
+      <PreviousActivities>
+        <ActivityID>8</ActivityID>
+        <ActivityID>18</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>14</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>11</GraphEdgeID>
+        <GraphEdgeID>13</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>14</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>1075.51882508251</Left>
+        <Top>659.08</Top>
+      </Location>
+      <Values>
+        <Value>System.Int32</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>1</ActivityNameInt>
+      <ActivityID>12</ActivityID>
+      <PreviousActivities>
+        <ActivityID>13</ActivityID>
+      </PreviousActivities>
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>15</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>158</Left>
+        <Top>11.08</Top>
+      </Location>
+      <Values>
+        <Value>Sum</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>3</ActivityNameInt>
+      <ActivityID>13</ActivityID>
+      <PreviousActivities />
+      <NextActivities>
+        <ActivityID>12</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines />
+      <OutgoingLines>
+        <GraphEdgeID>15</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>20</Left>
+        <Top>8.08</Top>
+      </Location>
+      <Values>
+        <Value>0</Value>
+      </Values>
+    </Activity>
+    <Activity Name="NameNode" IsFlipped="false">
+      <ActivityNameInt>0</ActivityNameInt>
+      <ActivityID>14</ActivityID>
+      <PreviousActivities>
+        <ActivityID>11</ActivityID>
+      </PreviousActivities>
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>14</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>1200.27868787276</Left>
+        <Top>688.08</Top>
+      </Location>
+      <Values />
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>1</ActivityNameInt>
+      <ActivityID>18</ActivityID>
+      <PreviousActivities>
+        <ActivityID>24</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>11</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>16</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>13</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>591.527169923201</Left>
+        <Top>1052.08</Top>
+      </Location>
+      <Values>
+        <Value>i</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>40</ActivityNameInt>
+      <ActivityID>19</ActivityID>
+      <PreviousActivities />
+      <NextActivities>
+        <ActivityID>22</ActivityID>
+        <ActivityID>20</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines />
+      <OutgoingLines>
+        <GraphEdgeID>17</GraphEdgeID>
+        <GraphEdgeID>43</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>25.1600393731683</Left>
+        <Top>1203.08</Top>
+      </Location>
+      <Values>
+        <Value>NameNode</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>2</ActivityNameInt>
+      <ActivityID>20</ActivityID>
+      <PreviousActivities>
+        <ActivityID>19</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>42</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>43</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>19</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>115.893293183639</Left>
+        <Top>1326.08</Top>
+      </Location>
+      <Values>
+        <Value>state.InputData + "|" + state.i + "|" + state.Part + "|" + state.N</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>1</ActivityNameInt>
+      <ActivityID>21</ActivityID>
+      <PreviousActivities>
+        <ActivityID>42</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>43</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>20</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>21</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>596.099608624328</Left>
+        <Top>1302.08</Top>
+      </Location>
+      <Values>
+        <Value>Substring</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>6</ActivityNameInt>
+      <ActivityID>22</ActivityID>
+      <PreviousActivities>
+        <ActivityID>19</ActivityID>
+      </PreviousActivities>
+      <NextActivities Index="0">
+        <ActivityID>46</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities>
+        <ActivityID>24</ActivityID>
+        <ActivityID>26</ActivityID>
+      </AlternateNextActivities>
+      <IncomingLines>
+        <GraphEdgeID>17</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines Index="0">
+        <GraphEdgeID>41</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines>
+        <GraphEdgeID>23</GraphEdgeID>
+        <GraphEdgeID>24</GraphEdgeID>
+      </AlternateOutgoingLines>
+      <Location>
+        <Left>131</Left>
+        <Top>1012.08</Top>
+      </Location>
+      <Values>
+        <Value Index="0">state.i == state.N</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>2</ActivityNameInt>
+      <ActivityID>23</ActivityID>
+      <PreviousActivities>
+        <ActivityID>33</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>25</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>25</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>26</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>674.133126733683</Left>
+        <Top>946.08</Top>
+      </Location>
+      <Values>
+        <Value>"All Done"</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>2</ActivityNameInt>
+      <ActivityID>24</ActivityID>
+      <PreviousActivities>
+        <ActivityID>22</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>18</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>23</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>16</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>439.293166106851</Left>
+        <Top>1045.08</Top>
+      </Location>
+      <Values>
+        <Value>state.i + 1</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>28</ActivityNameInt>
+      <ActivityID>25</ActivityID>
+      <PreviousActivities>
+        <ActivityID>23</ActivityID>
+      </PreviousActivities>
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>26</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>798.113333333333</Left>
+        <Top>825.08</Top>
+      </Location>
+      <Values>
+        <Value></Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>2</ActivityNameInt>
+      <ActivityID>26</ActivityID>
+      <PreviousActivities>
+        <ActivityID>22</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>27</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>24</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>27</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>442.293166106851</Left>
+        <Top>1140.08</Top>
+      </Location>
+      <Values>
+        <Value>"i = " + state.i</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>28</ActivityNameInt>
+      <ActivityID>27</ActivityID>
+      <PreviousActivities>
+        <ActivityID>26</ActivityID>
+      </PreviousActivities>
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>27</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>592.113333333333</Left>
+        <Top>1143.08</Top>
+      </Location>
+      <Values>
+        <Value></Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>11</ActivityNameInt>
+      <ActivityID>28</ActivityID>
+      <PreviousActivities />
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines />
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>1129</Left>
+        <Top>540.08</Top>
+      </Location>
+      <Values>
+        <Value>Triggers the NameNode event, which is used to create a new thread.</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>44</ActivityNameInt>
+      <ActivityID>29</ActivityID>
+      <PreviousActivities>
+        <ActivityID>30</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>1</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>28</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>2</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>267.305147084194</Left>
+        <Top>432.08</Top>
+      </Location>
+      <Values>
+        <Value Index="0">FileDialog</Value>
+        <Value Index="1">using System;
+using System.IO;
+
+[Serializable]
+public class FileDialog : CodeUtilities.CodeBase
+{
+    public FileDialog()
+    {
+        
+    }
+
+    // To execute your code, you must override the Execute method.
+    public override void Execute()
+    {
+        // Obtain the value of the input to this activity.
+        // The type of this value will depend on what input you pass to this activity.
+        string filePath = (string)Input;
+        string fileData = "";
+        
+        // Try to open the file
+        try
+        {
+        	fileData = " " + File.ReadAllText(filePath);
+        }
+        catch
+        {
+        	Console.WriteLine("Couldn't read" + filePath + ", please try again!");
+        	fileData = "Couldn't read" + filePath + ", please try again!";
+        }
+                
+        // Output the data read in from the file
+        Output = fileData;
+    }
+}</Value>
+        <Value Index="2">Microsoft.CSharp.dll</Value>
+        <Value Index="3">mscorlib.dll</Value>
+        <Value Index="4">System.Configuration.dll</Value>
+        <Value Index="5">System.Core.dll</Value>
+        <Value Index="6">System.dll</Value>
+        <Value Index="7">System.Dynamic.dll</Value>
+        <Value Index="8">System.Runtime.dll</Value>
+        <Value Index="9">System.Xaml.dll</Value>
+        <Value Index="10">System.Xml.Linq.dll</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>12</ActivityNameInt>
+      <ActivityID>30</ActivityID>
+      <PreviousActivities>
+        <ActivityID>0</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>29</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>1</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>28</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>119</Left>
+        <Top>427.12</Top>
+      </Location>
+      <Values>
+        <Value Index="0">PromptDialog</Value>
+        <Value Index="1">"Which file would you like to use?"</Value>
+        <Value Index="2">D:\Git_Projects\CSE_598_Software_Integration\Project_5\Assignment_9\FileForCounting.txt</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>44</ActivityNameInt>
+      <ActivityID>31</ActivityID>
+      <PreviousActivities>
+        <ActivityID>36</ActivityID>
+      </PreviousActivities>
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>29</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>1039</Left>
+        <Top>1388.08</Top>
+      </Location>
+      <Values>
+        <Value Index="0">CountWords</Value>
+        <Value Index="1">using System;
+using System.IO;
+using System.Collections.Generic;
+using System.Linq;
+using System.Xml.Linq;
+
+[Serializable]
+public class CountWords : CodeUtilities.CodeBase
+{
+    public CountWords()
+    {
+        
+    }
+
+    // To execute your code, you must override the Execute method.
+    public override void Execute()
+    {
+        // Obtain the value of the input to this activity.
+        // The type of this value will depend on what input you pass to this activity.
+        
+        string inputData = (string)Input;
+        string [] args = inputData.Split('|');
+        
+        string fileData = args[0];
+        string outputDirectory = Directory.GetCurrentDirectory() + "\\" + string.Concat(args[1].Split(System.IO.Path.GetInvalidPathChars())).Trim();
+        int idx = Int32.Parse(args[2]);
+        
+        PrintLine(idx.ToString());
+        // Word Map
+        Dictionary&lt;string, int&gt; wordMap = new Dictionary&lt;string, int&gt;();
+        
+        // Remove punctuation
+        fileData = RemovePunctuation(fileData);
+        fileData = fileData.Replace("\r", String.Empty).Replace("\n", " ").Replace("\t", " ");
+        
+        // Break into individual words
+        string[] words = fileData.Split(' ');     
+
+		// Walk through each word and count its occurance
+		foreach(string word in words)
+		{
+			int num;
+			// Check for a blank word
+			if(word == "")
+			{
+				continue;
+			}
+			// Check to see if the word is a number or symbol
+			if(int.TryParse(word, out num))
+			{
+				continue;
+			}
+			// Check to see if the first character is a number
+			if(char.IsDigit(word[0]))
+			{
+				continue;
+			}
+			//PrintLine(word);
+			// Check to see if it is mapped
+			if(wordMap.Keys.Contains(word.ToLower()))
+			{
+				// Increase the word count by one
+				wordMap[word.ToLower()] += 1;
+			}
+			else
+			{
+				// Create a key value pair for the word and it's current count
+				wordMap.Add(word.ToLower(), 1);
+			}
+		}
+                
+        // Convert the dictionary into an xelement
+        XElement xmlRep = new XElement("root",
+            wordMap.Select(word =&gt; new XElement(word.Key, word.Value)));
+        
+        //PrintLine(outputDirectory + "\\Count_" + i.ToString() + ".xml");
+        
+		// Write to a json file
+		File.WriteAllText(outputDirectory + "\\Count_" + idx.ToString() + ".xml", xmlRep.ToString());
+    }
+    
+    private string RemovePunctuation(string data)
+    {
+    	// Local variables
+    	string outputString = "";
+    	// Loop through the string
+    	foreach( char c in data)
+    	{
+    		if(!char.IsPunctuation(c) &amp;&amp; !char.IsSymbol(c))
+    		{
+    			// Add the character to the string
+    			outputString += c;
+    		}
+    	}
+    	
+    	// Return the cleaned string
+    	return outputString;
+    	
+    }
+}</Value>
+        <Value Index="2">Microsoft.CSharp.dll</Value>
+        <Value Index="3">mscorlib.dll</Value>
+        <Value Index="4">System.Collections.dll</Value>
+        <Value Index="5">System.Configuration.dll</Value>
+        <Value Index="6">System.Core.dll</Value>
+        <Value Index="7">System.dll</Value>
+        <Value Index="8">System.Drawing.dll</Value>
+        <Value Index="9">System.Dynamic.dll</Value>
+        <Value Index="10">System.IO.dll</Value>
+        <Value Index="11">System.Linq.dll</Value>
+        <Value Index="12">System.Runtime.dll</Value>
+        <Value Index="13">System.Windows.Forms.dll</Value>
+        <Value Index="14">System.Xaml.dll</Value>
+        <Value Index="15">System.Xml.Linq.dll</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>44</ActivityNameInt>
+      <ActivityID>32</ActivityID>
+      <PreviousActivities>
+        <ActivityID>37</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>33</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>30</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>31</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>409.113333333333</Left>
+        <Top>794.54</Top>
+      </Location>
+      <Values>
+        <Value Index="0">ReduceAndCombine</Value>
+        <Value Index="1">using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Xml.Linq;
+
+
+[Serializable]
+public class ReduceAndCombine : CodeUtilities.CodeBase
+{
+    public ReduceAndCombine()
+    {
+        
+    }
+
+    // To execute your code, you must override the Execute method.
+    public override void Execute()
+    {
+    	// Passed arguement
+    	//string outputDirectory = (string)Input;
+    	string outputDirectory = Directory.GetCurrentDirectory() + "\\" + string.Concat(((string)Input).Split(System.IO.Path.GetInvalidPathChars())).Trim();
+    	PrintLine(outputDirectory);
+        // Output Dictionary
+        Dictionary&lt;string, int&gt; output = new Dictionary&lt;string, int&gt;();
+        
+        // Get the file path to each file in the directory
+        string[] xmlDataPaths = Directory.GetFiles(outputDirectory);
+        
+        // Walk through each file, convert it into a dictionary and add to the output dictionary
+        foreach(string xmlFile in xmlDataPaths)
+        {
+        	PrintLine(xmlFile);
+        	// Read in the file
+        	XElement xmlData = XElement.Parse(File.ReadAllText(xmlFile));
+        	
+        	// Add to the output dictionary
+        	foreach(var element in xmlData.Elements())
+        	{
+        		if(output.Keys.Contains(element.Name.LocalName))
+        		{
+        			int currentCount = output[element.Name.LocalName];
+        			output[element.Name.LocalName] = currentCount + Int32.Parse(element.Value);
+        		}
+        		else
+        		{
+        			// Add the word and its stored count
+        			output.Add(element.Name.LocalName, Int32.Parse(element.Value));	
+        		}
+        	}
+        }
+        
+        
+        // You can pass output in a similar way.
+        Output = output;
+    }
+}</Value>
+        <Value Index="2">Microsoft.CSharp.dll</Value>
+        <Value Index="3">mscorlib.dll</Value>
+        <Value Index="4">System.Configuration.dll</Value>
+        <Value Index="5">System.Core.dll</Value>
+        <Value Index="6">System.dll</Value>
+        <Value Index="7">System.Drawing.dll</Value>
+        <Value Index="8">System.Dynamic.dll</Value>
+        <Value Index="9">System.Runtime.dll</Value>
+        <Value Index="10">System.Windows.Forms.dll</Value>
+        <Value Index="11">System.Xaml.dll</Value>
+        <Value Index="12">System.Xml.Linq.dll</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>44</ActivityNameInt>
+      <ActivityID>33</ActivityID>
+      <PreviousActivities>
+        <ActivityID>32</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>23</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>31</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>25</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>510.113333333333</Left>
+        <Top>928.54</Top>
+      </Location>
+      <Values>
+        <Value Index="0">WriteToFile</Value>
+        <Value Index="1">using System;
+using System.Collections.Generic;
+using System.IO;
+
+[Serializable]
+public class WriteToFile : CodeUtilities.CodeBase
+{
+    public WriteToFile()
+    {
+        
+    }
+
+    // To execute your code, you must override the Execute method.
+    public override void Execute()
+    {
+        // Obtain the value of the input to this activity.
+        // The type of this value will depend on what input you pass to this activity.
+        Dictionary&lt;string,int&gt; combinedCounts = (Dictionary&lt;string,int&gt;)Input;
+        
+        // Local variables
+        string outputString = "";
+        
+       	// Walk through the combined counts dictionary and write the convert to a string
+       	foreach(string word in combinedCounts.Keys)
+       	{
+       		// convert to string and add to the output
+       		outputString += word + " : " + combinedCounts[word].ToString() + "\r\n";
+       	}
+       	
+       	// Write the values to a file
+       	File.WriteAllText(Directory.GetCurrentDirectory() + "\\FileForOutput.txt", outputString);
+       	PrintLine("File Written To: " + Directory.GetCurrentDirectory() + "\\FileForOutput.txt");        
+    }
+}</Value>
+        <Value Index="2">Microsoft.CSharp.dll</Value>
+        <Value Index="3">mscorlib.dll</Value>
+        <Value Index="4">System.Configuration.dll</Value>
+        <Value Index="5">System.Core.dll</Value>
+        <Value Index="6">System.dll</Value>
+        <Value Index="7">System.Drawing.dll</Value>
+        <Value Index="8">System.Dynamic.dll</Value>
+        <Value Index="9">System.Runtime.dll</Value>
+        <Value Index="10">System.Windows.Forms.dll</Value>
+        <Value Index="11">System.Xaml.dll</Value>
+        <Value Index="12">System.Xml.Linq.dll</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>1</ActivityNameInt>
+      <ActivityID>34</ActivityID>
+      <PreviousActivities>
+        <ActivityID>35</ActivityID>
+      </PreviousActivities>
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>32</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>562</Left>
+        <Top>14.0799999999999</Top>
+      </Location>
+      <Values>
+        <Value>XmlFolder</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>3</ActivityNameInt>
+      <ActivityID>35</ActivityID>
+      <PreviousActivities />
+      <NextActivities>
+        <ActivityID>34</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines />
+      <OutgoingLines>
+        <GraphEdgeID>32</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>383</Left>
+        <Top>10.0799999999999</Top>
+      </Location>
+      <Values>
+        <Value>"StoredCounts"</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>2</ActivityNameInt>
+      <ActivityID>36</ActivityID>
+      <PreviousActivities>
+        <ActivityID>43</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>31</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>33</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>29</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>814.893293183639</Left>
+        <Top>1266.08</Top>
+      </Location>
+      <Values>
+        <Value>state.Substring + "|" + state.XmlFolder + "|" + state.i</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>2</ActivityNameInt>
+      <ActivityID>37</ActivityID>
+      <PreviousActivities>
+        <ActivityID>45</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>32</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>39</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>30</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>301.893293183639</Left>
+        <Top>968.08</Top>
+      </Location>
+      <Values>
+        <Value>state.XmlFolder</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>3</ActivityNameInt>
+      <ActivityID>38</ActivityID>
+      <PreviousActivities />
+      <NextActivities>
+        <ActivityID>39</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines />
+      <OutgoingLines>
+        <GraphEdgeID>34</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>12</Left>
+        <Top>110.96</Top>
+      </Location>
+      <Values>
+        <Value>"D:\\Git_Projects\\CSE_598_Software_Integration\\Project_5\\Assignment_9\\"</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>44</ActivityNameInt>
+      <ActivityID>39</ActivityID>
+      <PreviousActivities>
+        <ActivityID>38</ActivityID>
+      </PreviousActivities>
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>34</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>526.77331670434</Left>
+        <Top>122</Top>
+      </Location>
+      <Values>
+        <Value Index="0">SetWorkingDirectory</Value>
+        <Value Index="1">using System;
+using System.IO;
+
+[Serializable]
+public class SetWorkingDirectory : CodeUtilities.CodeBase
+{
+    public SetWorkingDirectory()
+    {
+        
+    }
+
+    // To execute your code, you must override the Execute method.
+    public override void Execute()
+    {
+        // Store the directory passed
+        string workingDirectory = string.Concat(((string)Input).Split(System.IO.Path.GetInvalidPathChars())).Trim();
+        
+        // Set the working Directory
+        Directory.SetCurrentDirectory(workingDirectory);
+        // Print the current working directory
+        PrintLine(Directory.GetCurrentDirectory());
+    }
+}</Value>
+        <Value Index="2">Microsoft.CSharp.dll</Value>
+        <Value Index="3">mscorlib.dll</Value>
+        <Value Index="4">System.Configuration.dll</Value>
+        <Value Index="5">System.Core.dll</Value>
+        <Value Index="6">System.dll</Value>
+        <Value Index="7">System.Drawing.dll</Value>
+        <Value Index="8">System.Dynamic.dll</Value>
+        <Value Index="9">System.Runtime.dll</Value>
+        <Value Index="10">System.Windows.Forms.dll</Value>
+        <Value Index="11">System.Xaml.dll</Value>
+        <Value Index="12">System.Xml.Linq.dll</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>44</ActivityNameInt>
+      <ActivityID>40</ActivityID>
+      <PreviousActivities>
+        <ActivityID>41</ActivityID>
+      </PreviousActivities>
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>35</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>650</Left>
+        <Top>654.12</Top>
+      </Location>
+      <Values>
+        <Value Index="0">CheckOutputFolder</Value>
+        <Value Index="1">using System;
+using System.IO;
+
+[Serializable]
+public class CheckOutputFolder : CodeUtilities.CodeBase
+{
+    public CheckOutputFolder()
+    {
+        
+    }
+
+    // To execute your code, you must override the Execute method.
+    public override void Execute()
+    {
+        // Obtain the value of the input to this activity.
+        // The type of this value will depend on what input you pass to this activity.
+        string outputDirectory = Directory.GetCurrentDirectory() + "\\" + string.Concat(((string)Input).Split(System.IO.Path.GetInvalidPathChars())).Trim();
+        
+        CheckForXmlFolder(outputDirectory);
+    }
+    
+        private void CheckForXmlFolder(string folderPath)
+    {
+    	//string alterPath = string.Concat(folderPath.Split(System.IO.Path.GetInvalidPathChars())).Trim();
+    	// Check to see if the json folder exists
+    	if(!Directory.Exists(folderPath))
+    	{
+    		DirectoryInfo di = Directory.CreateDirectory(folderPath);
+    		PrintLine("Created Directory " + di.FullName);
+    	}
+    	else
+    	{
+    		DirectoryInfo dir = new DirectoryInfo(folderPath);
+    		// Clear all files out
+    		foreach(FileInfo file in dir.GetFiles())
+    		{
+    			file.Delete();
+    		}
+    	}
+    }
+}</Value>
+        <Value Index="2">Microsoft.CSharp.dll</Value>
+        <Value Index="3">mscorlib.dll</Value>
+        <Value Index="4">System.Configuration.dll</Value>
+        <Value Index="5">System.Core.dll</Value>
+        <Value Index="6">System.dll</Value>
+        <Value Index="7">System.Drawing.dll</Value>
+        <Value Index="8">System.Dynamic.dll</Value>
+        <Value Index="9">System.Runtime.dll</Value>
+        <Value Index="10">System.Windows.Forms.dll</Value>
+        <Value Index="11">System.Xaml.dll</Value>
+        <Value Index="12">System.Xml.Linq.dll</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>2</ActivityNameInt>
+      <ActivityID>41</ActivityID>
+      <PreviousActivities>
+        <ActivityID>1</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>40</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>6</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>35</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>466.893293183639</Left>
+        <Top>657.08</Top>
+      </Location>
+      <Values>
+        <Value>state.XmlFolder</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>44</ActivityNameInt>
+      <ActivityID>42</ActivityID>
+      <PreviousActivities>
+        <ActivityID>20</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>21</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>19</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>20</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>439</Left>
+        <Top>1423.12</Top>
+      </Location>
+      <Values>
+        <Value Index="0">GetSubstring</Value>
+        <Value Index="1">using System;
+
+[Serializable]
+public class GetSubstring : CodeUtilities.CodeBase
+{
+    public GetSubstring()
+    {
+        
+    }
+
+    // To execute your code, you must override the Execute method.
+    public override void Execute()
+    {
+        // Receive and parse the inputs
+        string inputData = (string)Input;
+        string [] args = inputData.Split('|');
+        
+        string data = args[0];
+        int iteration = Int32.Parse(args[1]);
+        int partSize = Int32.Parse(args[2]);
+        int maxIterations = Int32.Parse(args[3]);
+        
+        PrintLine("Iteration = " + iteration.ToString() + " Part Size = " + partSize.ToString());
+        
+        string dataPart = "";
+        
+        // Check to see if the indices are in bound
+        if(iteration*partSize &lt;= data.Length &amp;&amp; iteration &lt; maxIterations)
+        {
+	        // Find the next whitespace character index
+	        int startIdx = data.IndexOf(" ", iteration * partSize);
+	        int endIdx = data.IndexOf(" ", iteration * partSize + partSize);
+	        
+	        PrintLine("Start Idx = " + startIdx.ToString() + " End Idx = " + endIdx.ToString());
+	        if(endIdx == -1)
+	        {
+	        	dataPart = data.Substring(startIdx);
+	        }
+	        else
+	        {
+	        	dataPart = data.Substring(startIdx, endIdx - startIdx);
+	        }
+        }
+        // Return the substring
+        Output = dataPart;
+    }
+}</Value>
+        <Value Index="2">Microsoft.CSharp.dll</Value>
+        <Value Index="3">mscorlib.dll</Value>
+        <Value Index="4">System.Configuration.dll</Value>
+        <Value Index="5">System.Core.dll</Value>
+        <Value Index="6">System.dll</Value>
+        <Value Index="7">System.Drawing.dll</Value>
+        <Value Index="8">System.Dynamic.dll</Value>
+        <Value Index="9">System.Runtime.dll</Value>
+        <Value Index="10">System.Windows.Forms.dll</Value>
+        <Value Index="11">System.Xaml.dll</Value>
+        <Value Index="12">System.Xml.Linq.dll</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>6</ActivityNameInt>
+      <ActivityID>43</ActivityID>
+      <PreviousActivities>
+        <ActivityID>21</ActivityID>
+      </PreviousActivities>
+      <NextActivities Index="0">
+        <ActivityID>36</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>21</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines Index="0">
+        <GraphEdgeID>33</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>714</Left>
+        <Top>1393.54</Top>
+      </Location>
+      <Values>
+        <Value Index="0">state.Substring != ""</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>15</ActivityNameInt>
+      <ActivityID>45</ActivityID>
+      <PreviousActivities>
+        <ActivityID>46</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>37</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>40</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>39</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>178</Left>
+        <Top>804.58</Top>
+      </Location>
+      <Values>
+        <Value />
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>3</ActivityNameInt>
+      <ActivityID>46</ActivityID>
+      <PreviousActivities>
+        <ActivityID>22</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>45</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>41</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>40</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>56</Left>
+        <Top>896.58</Top>
+      </Location>
+      <Values>
+        <Value>1000</Value>
+      </Values>
+    </Activity>
+  </ProgrammingPanel>
+  <ProgrammingPanel Name="NameNode">
+    <Variables />
+    <Activity IsFlipped="false">
+      <ActivityNameInt>-1</ActivityNameInt>
+      <ActivityID>15</ActivityID>
+      <PreviousActivities />
+      <NextActivities>
+        <ActivityID>44</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines />
+      <OutgoingLines>
+        <GraphEdgeID>36</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>0</Left>
+        <Top>0</Top>
+      </Location>
+      <Values>
+        <Value></Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>-2</ActivityNameInt>
+      <ActivityID>16</ActivityID>
+      <PreviousActivities />
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines />
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>0</Left>
+        <Top>0</Top>
+      </Location>
+      <Values>
+        <Value></Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>-3</ActivityNameInt>
+      <ActivityID>17</ActivityID>
+      <PreviousActivities>
+        <ActivityID>44</ActivityID>
+      </PreviousActivities>
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>37</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>0</Left>
+        <Top>0</Top>
+      </Location>
+      <Values>
+        <Value></Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>6</ActivityNameInt>
+      <ActivityID>44</ActivityID>
+      <PreviousActivities>
+        <ActivityID>15</ActivityID>
+      </PreviousActivities>
+      <NextActivities Index="0">
+        <ActivityID>17</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>36</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines Index="0">
+        <GraphEdgeID>37</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>147.881965637207</Left>
+        <Top>420.08</Top>
+      </Location>
+      <Values>
+        <Value Index="0">state.i&lt;=state.N</Value>
+      </Values>
+    </Activity>
+  </ProgrammingPanel>
+  <Variables>
+    <Variable>
+      <VariableName>N</VariableName>
+      <VariableType>System.Int32</VariableType>
+    </Variable>
+    <Variable>
+      <VariableName>InputData</VariableName>
+      <VariableType>System.String</VariableType>
+    </Variable>
+    <Variable>
+      <VariableName>Part</VariableName>
+      <VariableType>System.Int32</VariableType>
+    </Variable>
+    <Variable>
+      <VariableName>Sum</VariableName>
+      <VariableType>System.Int32</VariableType>
+    </Variable>
+    <Variable>
+      <VariableName>i</VariableName>
+      <VariableType>System.Int32</VariableType>
+    </Variable>
+    <Variable>
+      <VariableName>Substring</VariableName>
+      <VariableType>System.String</VariableType>
+    </Variable>
+    <Variable>
+      <VariableName>XmlFolder</VariableName>
+      <VariableType>System.String</VariableType>
+    </Variable>
+  </Variables>
+  <UsedCustomActivityNames>
+    <CustomActivityName>NameNode</CustomActivityName>
+  </UsedCustomActivityNames>
+</Program>
